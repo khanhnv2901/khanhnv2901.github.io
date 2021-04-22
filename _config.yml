@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Khanh Nguyen Van
+description:    "Phàm nhân tu tiên tới bất diệt truyền thuyết"
+baseurl:        ""
+url:            "https://khanhnv2901.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Khanh Nguyen Van
+  url:          https://khanhnv2901.github.io
+  email:        khanhnv2901@gmail.com
 
 # Build settings
 markdown:       kramdown
