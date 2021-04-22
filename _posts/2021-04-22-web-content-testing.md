@@ -48,7 +48,7 @@ Trên lý thuyết, RNN có thể sử dụng được thông tin của một v�
 tuy nhiên thực tế thì nó chỉ có thể nhớ được một vài bước trước đó (ta cùng bàn cụ thể vấn đề này sau) mà thôi.
 Về cơ bản một mạng RNN có dạng như sau:
 
-{{< image classes="fancybox center" src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/rnn.jpg" title="A recurrent neural network and the unfolding in time of the computation involved in its forward computation. Source: Nature" >}}
+![A recurrent neural network and the unfolding in time of the computation involved in its forward computation. Source: Nature"](https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/rnn.jpg)
 
 Mô hình trên mô tả phép triển khai nội dung của một RNN.
 Triển khai ở đây có thể hiểu đơn giản là ta vẽ ra một mạng nơ-ron chuỗi tuần tự.
@@ -56,15 +56,15 @@ Ví dụ ta có một câu gồm 5 chữ "*Đẹp trai lắm gái theo*",
 thì mạng nơ-ron được triển khai sẽ gồm 5 tầng nơ-ron tương ứng với mỗi chữ một tầng.
 Lúc đó việc tính toán bên trong RNN được thực hiện như sau:
 
-* $ \color{blue}x_t $ là đầu vào tại bước $ \color{blue}t $.
+* \textcolor{x_t}{blue} là đầu vào tại bước \color{blue}t $.
 Ví dụ, $ \color{deeppink}x_1 $ là một vec-tơ one-hot tương ứng với từ thứ 2 của câu (*trai*).
 * $ \color{blue}s_t $ là trạng thái ẩn tại bước $ \color{blue}t $.
 Nó chính là **_bộ nhớ_** của mạng.
 $ \color{blue}s_t $ được tính toán dựa trên cả các trạng thái ẩn phía trước và đầu vào tại bước đó:
 $ \color{blue}s_t = f(U x_t + W s\_{t-1} ) $.
 Hàm $ \color{blue}f $ thường là một hàm phi tuyến tính như
-<a href="https://vi.wikipedia.org/wiki/H%C3%A0m_hypebolic" target="_blank"_ rel="noopener noreferrer">tang hyperbolic (tanh)</a>
-hay <a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks)" target="_blank"_ rel="noopener noreferrer">ReLu</a>.
+[tang hyperbolic (tanh)](https://vi.wikipedia.org/wiki/H%C3%A0m_hypebolic)
+hay [Relu ](https://en.wikipedia.org/wiki/Rectifier)      (neural_networks)
 Để làm phép toán cho phần tử ẩn đầu tiên ta cần khởi tạo thêm $ \color{deeppink}s_{-1} $,
 thường giá trị khởi tạo được gắn bằng `0`.
 
