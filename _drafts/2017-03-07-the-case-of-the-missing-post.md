@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The Case of the Missing Post"
-author: "Chester"
+title: "Thử up bài post lên web site"
+author: "KhanhNV"
 tags: Tale
 ---
 
