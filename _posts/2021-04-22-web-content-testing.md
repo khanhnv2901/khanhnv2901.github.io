@@ -56,7 +56,7 @@ instead.
 
 This is *red*{: style="color: red"}
 
-> Bài giới thiệu RNN này được dịch lại từ trang <a href="http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/" target="_blank"_ rel="noopener noreferrer">blog WILDML</a>.
+> Bài giới thiệu RNN này được dịch lại từ trang <a href="http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/">blog WILDML</a>.
 
 Mạng nơ-ron hồi quy (RNN - Recurrent Neural Network) là một thuật toán được chú ý rất nhiều trong thời gian gần đây bởi các kết quả tốt thu được trong lĩnh vực xử lý ngôn ngữ tự nhiên.
 <!--more-->
@@ -81,7 +81,7 @@ Những mô hình này thường được ứng dụng trong các hệ thống d
 Hai là tự động sinh văn bản (tôi cho rằng ứng dụng này hấp dẫn hơn).
 Ví dụ huấn luyện mô hình với các tác phẩm của Shakespeare có thể cho phép ta sinh ra
 các câu từ tựa như cách Shakespeare viết.
-Ngoài ra, nếu có thời gian, các bạn có thể tham khảo thêm <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/" target="_blank"_ rel="noopener noreferrer">bài viết thú vị này</a> (tiếng Anh) của Andrej Karpathy về khả năng của các mô hình ngôn ngữ mức độ từ vựng.
+Ngoài ra, nếu có thời gian, các bạn có thể tham khảo thêm <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/">bài viết thú vị này</a> (tiếng Anh) của Andrej Karpathy về khả năng của các mô hình ngôn ngữ mức độ từ vựng.
 
 Bài viết này dành cho các bạn đã biết cơ bản về mạng nơ-rơn (Neural Network),
 nếu bạn chưa biết về mạng nơ-ron thì hãy đọc bài viết
