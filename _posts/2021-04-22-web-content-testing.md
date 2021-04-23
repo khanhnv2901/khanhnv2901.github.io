@@ -5,6 +5,8 @@ author: "KhanhNV"
 tags: RNN
 ---
 
+This is *red*{: style="color: red"}
+
 > Bài giới thiệu RNN này được dịch lại từ trang <a href="http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/" target="_blank"_ rel="noopener noreferrer">blog WILDML</a>.
 
 Mạng nơ-ron hồi quy (RNN - Recurrent Neural Network) là một thuật toán được chú ý rất nhiều trong thời gian gần đây bởi các kết quả tốt thu được trong lĩnh vực xử lý ngôn ngữ tự nhiên.
