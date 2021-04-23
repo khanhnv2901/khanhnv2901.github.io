@@ -85,7 +85,7 @@ Ngoài ra, nếu có thời gian, các bạn có thể tham khảo thêm <a href
 
 Bài viết này dành cho các bạn đã biết cơ bản về mạng nơ-rơn (Neural Network),
 nếu bạn chưa biết về mạng nơ-ron thì hãy đọc bài viết
-<a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/" target="_blank"_ rel="noopener noreferrer">Cài đặt mạng nơ-ron cơ bản</a>.
+<a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/">Cài đặt mạng nơ-ron cơ bản</a>.
 Bài viết đó sẽ giúp bạn có cái nhìn cơ bản về ý tưởng và cách xây dựng một mạng nơ-ron cơ bản - mạng nơ-ron phi hồi quy.
 
 # 2. Mạng hồi quy RNN là gì?
@@ -115,7 +115,7 @@ $ \color{blue}s_t $ được tính toán dựa trên cả các trạng thái ẩ
 $ \color{blue}s_t = f(U x_t + W s\_{t-1} ) $.
 Hàm $ \color{blue}f $ thường là một hàm phi tuyến tính như
 [tang hyperbolic (tanh)](https://vi.wikipedia.org/wiki/H%C3%A0m_hypebolic)
-hay [Relu ](https://en.wikipedia.org/wiki/Rectifier)      (neural_networks)
+hay [Relu ](https://en.wikipedia.org/wiki/Rectifier)(neural_networks)
 Để làm phép toán cho phần tử ẩn đầu tiên ta cần khởi tạo thêm $ \color{deeppink}s_{-1} $,
 thường giá trị khởi tạo được gắn bằng `0`.
 
@@ -128,7 +128,7 @@ $ \color{blue}o_t = \mathrm{softmax}(V s_t) $
 Trong lĩnh vực xử lý ngôn ngữ tự nhiên (NLP - Natural Language Processing),
 đã ghi nhận được nhiều thành công của RNN cho nhiều vấn đề khác nhau.
 Tại thời điểm này, tôi muốn đề cập tới một mô hình phổ biến nhất được sử dụng của RNN là
-<a href="https://en.wikipedia.org/wiki/Long_short-term_memory" target="_blank"_ rel="noopener noreferrer">LSTM</a>.
+<a href="https://en.wikipedia.org/wiki/Long_short-term_memory">LSTM</a>.
 LSTM (Long Short-Term Memory) thể hiện được sự ưu việt ở điểm có thể nhớ được nhiều bước hơn mô hình RNN truyền thống.
 Nhưng bạn không cần phải quá lo lắng vì LSTM về cơ bản giống với cấu trúc của RNN truyền thống,
 chúng chỉ khác nhau ở cách tính toán của các nút ẩn.
@@ -141,7 +141,7 @@ Do có khả năng ước lượng được độ tương tự của các câu n
 Một điểm lý thú của việc có thể dự đoán được từ tiếp theo là ta có thể xây dựng được
 một mô hình tự sinh từ cho phép máy tính có thể tự tạo ra các văn bản mới từ tập mẫu và xác xuất đầu ra của mỗi từ.
 Vậy nên, tùy thuộc vào mô hình ngôn ngữ mà ta có thể tạo ra được nhiều
-<a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/" target="_blank"_ rel="noopener noreferrer">văn bản khác nhau</a>
+<a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">văn bản khác nhau</a>
 khá là thú vị phải không.
 Trong mô hình ngôn ngữ, đầu vào thường là một chuỗi các từ (được mô tả bằng vec-tơ one-hot)
 và đầu ra là một chuỗi các từ dự đoán được.
@@ -150,9 +150,9 @@ Khi huấn luyện mạng, ta sẽ gán $ \color{blue}o_t = x\_{t+1} $ vì ta mu
 
 Dưới đây là một vài nghiên cứu về mô hình hoá ngôn ngữ và sinh văn bản:
 
-* <a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf" target="_blank"_ rel="noopener noreferrer">Recurrent neural network based language model</a>
-* <a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf" target="_blank"_ rel="noopener noreferrer">Extensions of Recurrent neural network based language model</a>
-* <a href="http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Sutskever_524.pdf" target="_blank"_ rel="noopener noreferrer">Generating Text with Recurrent Neural Networks</a>
+* <a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf">Recurrent neural network based language model</a>
+* <a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf">Extensions of Recurrent neural network based language model</a>
+* <a href="http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Sutskever_524.pdf">Generating Text with Recurrent Neural Networks</a>
 
 ## 3.2. Dịch máy
 Dịch máy (Machine Translation) tương tự như mô hình hóa ngôn ngữ ở điểm là
@@ -161,29 +161,29 @@ Còn đầu ra sẽ là một chuỗi các từ trong ngôn ngữ đích (ngôn 
 Điểm khác nhau ở đây là đầu ra của ta chỉ xử lý sau khi đã xem xét toàn bộ chuỗi đầu vào.
 Vì từ dịch đầu tiên của câu dịch cần phải có đầy đủ thông tin từ đầu vào cần dịch mới có thể suy luận được.
 
-{{< image classes="fancybox center" src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/Screen-Shot-2015-09-17-at-10.39.06-AM-1024x557.png" title="RNN for Machine Translation. Image Source: http://cs224d.stanford.edu/lectures/CS224d-Lecture8.pdf" >}}
+{{< image src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/Screen-Shot-2015-09-17-at-10.39.06-AM-1024x557.png" title="RNN for Machine Translation. Image Source: http://cs224d.stanford.edu/lectures/CS224d-Lecture8.pdf" >}}
 
 Dưới đây là một vài nghiên cứu về dịch máy:
 
-* <a href="http://www.aclweb.org/anthology/P14-1140.pdf" target="_blank"_ rel="noopener noreferrer">A Recursive Recurrent Neural Network for Statistical Machine Translation</a>
-* <a href="http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf" target="_blank"_ rel="noopener noreferrer">Sequence to Sequence Learning with Neural Networks</a>
-* <a href="http://research.microsoft.com/en-us/um/people/gzweig/Pubs/EMNLP2013RNNMT.pdf" target="_blank"_ rel="noopener noreferrer">Joint Language and Translation Modeling with Recurrent Neural Networks</a>
+* <a href="http://www.aclweb.org/anthology/P14-1140.pdf">A Recursive Recurrent Neural Network for Statistical Machine Translation</a>
+* <a href="http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf">Sequence to Sequence Learning with Neural Networks</a>
+* <a href="http://research.microsoft.com/en-us/um/people/gzweig/Pubs/EMNLP2013RNNMT.pdf">Joint Language and Translation Modeling with Recurrent Neural Networks</a>
 
 ## 3.3. Nhận dạng giọng nói
 Đưa vào một chuỗi các tín hiệu âm thanh, ta có thể dự đoán được chuỗi các đoạn ngữ âm đi kèm với xác xuất của chúng.
 
 Dưới đây là một vài nghiên cứu về nhận dạng giọng nói:
 
-* <a href="http://www.jmlr.org/proceedings/papers/v32/graves14.pdf" target="_blank"_ rel="noopener noreferrer">Towards End-to-End Speech Recognition with Recurrent Neural Networks</a>
+* <a href="http://www.jmlr.org/proceedings/papers/v32/graves14.pdf">Towards End-to-End Speech Recognition with Recurrent Neural Networks</a>
 
 
 ## 3.4. Mô tả hình ảnh
-Cùng với <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network" target="_blank"_ rel="noopener noreferrer">ConvNet</a>,
+Cùng với <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">ConvNet</a>,
 RNN được sử dụng để tự động tạo mô tả cho các ảnh chưa được gán nhãn.
 Sự kết hợp này đã đưa ra được các kết quả khá kinh ngạc.
 Ví dụ như các ảnh dưới đây, các mô tả sinh ra có mức độ chính xác và độ tường tận khá cao.
 
-{{< image classes="fancybox center" src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/Screen-Shot-2015-09-17-at-11.44.24-AM-1024x349.png" title="Deep Visual-Semantic Alignments for Generating Image Descriptions. Source: http://cs.stanford.edu/people/karpathy/deepimagesent/" >}}
+{{< image src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/Screen-Shot-2015-09-17-at-11.44.24-AM-1024x349.png" title="Deep Visual-Semantic Alignments for Generating Image Descriptions. Source: http://cs.stanford.edu/people/karpathy/deepimagesent/" >}}
 
 # 4. Huấn luyện RNN
 Huấn luyện mạng RNN cũng tương tự như các mạng nơ-ron truyền thống,
@@ -194,10 +194,10 @@ vì các tham số trong mạng RNN được sử dụng chung cho tất cả c�
 Ví dụ, để tính đạo hàm tại $ \color{deeppink}t = 4 $ ta phải lan truyền ngược cả 3 bước phía trước
 rồi cộng tổng đạo hàm của chúng lại với nhau.
 Việc tính đạo hàm kiểu này được gọi là lan truyền ngược liên hồi
-(<a href="https://en.wikipedia.org/wiki/Backpropagation_through_time" target="_blank"_ rel="noopener noreferrer">BPTT</a> - Backpropagation Through Time).
+(<a href="https://en.wikipedia.org/wiki/Backpropagation_through_time">BPTT</a> - Backpropagation Through Time).
 Nếu giờ bạn chưa thể hiểu được BPTT thế nào thì cũng đừng lo sợ
 vì trong bài sau ta sẽ xem xét cụ thể nó là gì sau.
-Còn giờ, chỉ cần nhớ rằng với các bước phụ thuộc càng xa thì việc học sẽ <a href="https://arxiv.org/pdf/1211.5063v2.pdf" target="_blank"_ rel="noopener noreferrer">càng khó khăn hơn</a>
+Còn giờ, chỉ cần nhớ rằng với các bước phụ thuộc càng xa thì việc học sẽ <a href="https://arxiv.org/pdf/1211.5063v2.pdf">càng khó khăn hơn</a>
 vì sẽ xuất hiện vấn đề hao hụt/bùng nổ (vanishing/exploding) của đạo hàm.
 Có một vài phương pháp được đề xuất để giải quyết vấn đề này
 và các kiểu mạng RNN hiện nay đã được thiết kế để triệt tiêu bớt chúng như LSTM chẳng hạn.
@@ -215,7 +215,7 @@ Ví dụ, để dự đoán từ còn thiếu trong câu, thì việc xem xét c
 Vì vậy, ta có thể coi mô hình là việc chồng 2 mạng RNN ngược hướng nhau lên nhau.
 Lúc này đầu ra được tính toán dựa vào cả 2 trạng thái ẩn của 2 mạng RNN ngược hướng này.
 
-{{< image classes="fancybox center" src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/bidirectional-rnn-300x196.png" title="Bidirectional RNNs" >}}
+{{< image src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/bidirectional-rnn-300x196.png" title="Bidirectional RNNs" >}}
 
 ## 5.2. RNN (2 chiều) sâu
 RNN sâu (Deep (Bidirectional) RNN) cũng tương tự như RNN 2 chiều,
@@ -223,7 +223,7 @@ nhưng khác nhau ở chỗ chúng chứa nhiều tầng ẩn ở mỗi bước.
 Trong thực tế, chúng giúp cho việc học ở mức độ cao hơn,
 tuy nhiên ta cũng cần phải có nhiều dữ liệu huấn luyện hơn.
 
-{{< image classes="fancybox center" src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-2.21.51-PM-272x300.png" title="Deep (Bidirectional) RNNs" >}}
+{{< image src="https://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-2.21.51-PM-272x300.png" title="Deep (Bidirectional) RNNs" >}}
 
 ## 5.3. Mạng LSTM
 Gần đây, mạng LSTM mà ta có đề cập một chút phía trên được chú ý và sử dụng khá phổ biến.
@@ -235,13 +235,13 @@ Bên trong hộp đen này sẽ tự quyết định cái gì cần phải nhớ
 Sau đó, chúng sẽ kết hợp với trạng thái phía trước, nhớ hiện tại và đầu vào hiện tại.
 Vì vậy mà ta ta có thể truy xuất được quan hệ của các từ phụ thuộc xa nhau rất hiệu quả.
 Có thể khi mới làm quen với LSTM thì chúng hơi khó hiểu đôi chút, nhưng nếu bạn có hứng thú thì hãy xem
-<a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/" target="_blank"_ rel="noopener noreferrer">bài viết xuất sắc này</a>
-(<a href="/vi/2017/10/what-is-lstm/" target="_blank"_ rel="noopener noreferrer">bản dịch tại đây</a>).
+<a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">bài viết xuất sắc này</a>
+(<a href="/vi/2017/10/what-is-lstm/">bản dịch tại đây</a>).
 
 # 6. Kết luận
 Okey, được rồi, tôi hi vọng là bạn đã hiểu cơ bản về RNN và khả năng của chúng.
 Trong bài viết tiếp theo, chúng ta sẽ cài đặt phiên bản đầu tiên của mô hình ngôn ngữ RNN sử dụng `Python`
-và <a href="http://www.deeplearning.net/software/theano/" target="_blank"_ rel="noopener noreferrer">Theano</a>.
+và <a href="http://www.deeplearning.net/software/theano/">Theano</a>.
 Giờ nếu bạn có thắc mắc gì thì có thể để lại câu hỏi ở phía dưới nhé!
 
 
