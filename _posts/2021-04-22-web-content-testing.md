@@ -5,6 +5,13 @@ author: "KhanhNV"
 tags: RNN
 usemathjax: true
 ---
+Ok, giờ tôi sẽ trình bày về mô hình ngôn ngữ dựa trên RNN.
+Ứng dụng của mô hình ngôn ngữ gồm 2 dạng.
+Một là đánh giá độ chính xác của một câu dựa theo mức độ tương tự của chúng trên thực tế.
+Việc đánh giá này giúp ta ước lượng được độ chính xác của văn phạm lẫn ngữ nghĩa của một câu.
+Những mô hình này thường được ứng dụng trong các hệ thống dịch máy (Machine Translation).
+Hai là tự động sinh văn bản (tôi cho rằng ứng dụng này hấp dẫn hơn).
+
 
 $\[ x^n + y^n = z^n \]$
 -----------
