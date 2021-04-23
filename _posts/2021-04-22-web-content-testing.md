@@ -4,14 +4,19 @@ title: "Thử up bài post lên web site"
 author: "KhanhNV"
 tags: RNN
 ---
-\begin{bmatrix}
+$\begin{bmatrix}
 1 & 2 & 3\\
 a & b & c
-\end{bmatrix}
+\end{bmatrix}$
 
 Một véc-tơ cột có dạng như sau:
 
-$$ x = \begin{bmatrix} x_1 \cr x_2 \cr \vdots \cr x_n \end{bmatrix} $$
+$$ x = \begin{bmatrix} 
+          x_1 \\
+          x_2 \\ 
+          \vdots \\
+          x_n 
+          \end{bmatrix} $$
 
 Một véc-tơ hàng có dạng như sau: $$ x = \begin{bmatrix} x_1 & x_2 & \cdots & x_n \end{bmatrix} $$
 
