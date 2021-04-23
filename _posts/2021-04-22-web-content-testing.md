@@ -4,6 +4,17 @@ title: "Thử up bài post lên web site"
 author: "KhanhNV"
 tags: RNN
 ---
+Trying to typeset an inline matrix here
+$\begin{pmatrix}
+  a & b\\ 
+  c & d
+\end{pmatrix}$ 
+but it looks too big, so let's try 
+$\big(\begin{smallmatrix}
+  a & b\\
+  c & d
+\end{smallmatrix}\big)$ 
+instead.
 
 This is *red*{: style="color: red"}
 
