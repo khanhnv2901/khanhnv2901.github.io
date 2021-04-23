@@ -6,7 +6,7 @@ tags: Reddit
 usemathjax: true
 ---
 Bài post được post bởi **u/lliorca336** | *91% Upvote*
----
+
 *u/pepcharm*
 Tại sao chúng ta rụng quá nhiều tóc mỗi ngày và tóc vẫn giữ được độ dài phù hợp??? Đặc biệt người có tóc dài.
 
