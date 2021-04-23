@@ -3,6 +3,7 @@ layout: post
 title: "Thử up bài post lên web site"
 author: "KhanhNV"
 tags: RNN
+usemathjax: true
 ---
 
 $\[ x^n + y^n = z^n \]$
