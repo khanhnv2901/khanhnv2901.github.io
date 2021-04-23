@@ -6,6 +6,7 @@ tags: RNN
 ---
 
 $\[ x^n + y^n = z^n \]$
+-----------
 $$\begin{vmatrix}
 1 & 2 & 3\\
 a & b & c
