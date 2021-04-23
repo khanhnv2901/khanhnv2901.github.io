@@ -4,10 +4,20 @@ title: "Thử up bài post lên web site"
 author: "KhanhNV"
 tags: RNN
 ---
-$\begin{bmatrix}
+
+$\[ x^n + y^n = z^n \]$
+$$\begin{vmatrix}
 1 & 2 & 3\\
 a & b & c
-\end{bmatrix}$
+\end{vmatrix}$$
+------------
+In physics, the mass-energy equivalence is stated 
+by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+-------------
+$$\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}$$
 
 Một véc-tơ cột có dạng như sau:
 
