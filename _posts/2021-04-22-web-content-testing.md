@@ -4,6 +4,19 @@ title: "Thử up bài post lên web site"
 author: "KhanhNV"
 tags: RNN
 ---
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
+
+Một véc-tơ cột có dạng như sau:
+
+$$ x = \begin{bmatrix} x_1 \cr x_2 \cr \vdots \cr x_n \end{bmatrix} $$
+
+Một véc-tơ hàng có dạng như sau: $$ x = \begin{bmatrix} x_1 & x_2 & \cdots & x_n \end{bmatrix} $$
+
+Trong đó, $ x_1 $, $ x_2 $, ..., $ x_n $ là các phần tử thứ 1, thứ 2, ... thứ n của véc-tơ.
+
 Trying to typeset an inline matrix here
 $\begin{pmatrix}
   a & b\\ 
