@@ -22,6 +22,34 @@ Một véc-tơ hàng có dạng như sau: $$ x = \begin{bmatrix} x_1 & x_2 & \cd
 
 Trong đó, $ x_1 $, $ x_2 $, ..., $ x_n $ là các phần tử thứ 1, thứ 2, ... thứ n của véc-tơ.
 
+\def\A{
+\begin{bmatrix}
+    x_1 & x_2 & \cdots & x_N
+\end{bmatrix}}
+
+\def\B{
+\begin{bmatrix}
+    ax_0 + bx_1 \\
+    ax_1 + bx_2 \\
+    \vdots \\
+    x_{N-1} + x_N
+\end{bmatrix}}
+
+\def\C{
+\begin{bmatrix}
+    z_1 \\
+    z_2 \\
+    \vdots \\
+    z_N
+\end{bmatrix}}
+
+\begin{document}
+\abovedisplayskip=0pt\relax% don't use this line in your production!
+\begin{equation}
+y =\A \left(\B - \C\right)
+\end{equation}
+\end{document}
+
 Trying to typeset an inline matrix here
 $\begin{pmatrix}
   a & b\\ 
