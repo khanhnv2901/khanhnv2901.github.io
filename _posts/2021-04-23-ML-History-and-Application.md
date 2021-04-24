@@ -4,7 +4,11 @@ title: "Học máy - Khái niệm, nguồn gốc và ứng dụng"
 author: "KhanhNV"
 tags: ML
 ---
+# Mục lục 
 
+  {% include toc.html html=content %}
+
+---
 
 # 1.Học máy là gì?
 
