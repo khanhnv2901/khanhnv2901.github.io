@@ -6,6 +6,11 @@ tags: ML
 toc: true
 ---
 
+<p>
+<h1>TOC</h1>
+{% include toc.html html=content %}
+</p>
+---
 <aside markdown="1">
 <h2>Mục lục</h2>
 * ToC
