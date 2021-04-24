@@ -52,7 +52,7 @@ Dậy sớm (4h sáng) để đi làm. Mé, thằng nào nghĩ ra nó đúng là
 \>*u/GeeManna1*  
 Trường cấp 3 chỗ tôi có đứa bé sống xa trường vl và nó phải dậy từ 3h cmn sáng để tới trường đúng giờ  
   
->>*u/Yung_Mulann365*  
+\>>*u/Yung_Mulann365*  
 Tôi đã xem bộ phim tài liệu từ lâu rồi nói về những đứa trẻ từ những đất nước thuộc thế giới thứ 3 khác nhau đi bộ đi học, không đi xe bus hay gọi uber hoặc là dùng đồng hồ báo thức để gọi chúng dậy, vì vậy chúng phải dậy sớm lắm để đi bộ hàng giờ đồng hồ tới trường và hàng giờ vượt núi và xa mạc để về nhà, chắc bạn cũng nghĩ tới các quốc gia như Ấn Độ, Châu phi, và Argentina. Còn đây là cô gái bé nhỏ của bà ngoại, không tới trường bởi vì cô ấy đã từng phải dậy siêu sớm để đi bộ hàng tiếng đồng hồ tới trường và sau đó trở lại vấn đề là nếu cô ấy trở về nhà thì đã tới giờ đi ngủ cmnr.  
   
 ---  
