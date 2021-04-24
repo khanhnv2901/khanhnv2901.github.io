@@ -5,6 +5,7 @@ author: "KhanhNV"
 tags: ML
 ---
 
+{% include toc.html %}
 
 ---
 
