@@ -5,7 +5,8 @@ author: "KhanhNV"
 tags: ML
 ---
 
-{% include toc.html html=content %}
+*TOC
+{:toc}
 # 1.Học máy là gì?
 
 Theo Wikipedia, Học máy (Machine Learning) là một lĩnh vực của trí tuệ nhân tạo liên quan đến việc nghiên cứu và xây dựng các kĩ thuật cho phép các hệ thống “học” tự động từ dữ liệu để giải quyết những vấn đề cụ thể. 
