@@ -6,11 +6,8 @@ tags: ML
 toc: true
 ---
 
-{% include toc.html html=content %}
-
----
 <aside markdown="1">
-<h4>Table of Contents</h4>
+<h2>Mục lục</h2>
 * ToC
 {:toc}
 </aside>
@@ -21,7 +18,7 @@ Theo Wikipedia, Học máy (Machine Learning) là một lĩnh vực của trí t
 
 Nói cách khác, Học máy giống như là một phương pháp phân tích dữ liệu, nhưng dựa trên ý tưởng rằng hệ thống máy tính có thể “học” từ dữ liệu, sau đó nhận diện mẫu (pattern) và tự đưa ra quyết định với sự can thiệp rất ít từ con người.
 
-# 2.Nguồn gốc Học máy:
+# 2.Nguồn gốc Học máy
 
 Thuật ngữ Học máy được đặt ra vào năm 1959 bởi [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel), nhân viên IBM người Mỹ và là người đi đầu trong lĩnh vực trò chơi vi tính (Computer Gaming) và trí tuệ nhân tạo [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
 
@@ -39,7 +36,7 @@ Một cuốn sách tiêu biểu của nghiên cứu Học máy trong suốt nh�
 
 Các lĩnh vực liên quan tới Học máy đó là Trí tuệ nhân tạo (Artificial Intelligence), Khai phá dữ liệu (Data mining), Tối ưu hóa (Optimization), Khái quát hóa ( Generalization), Xác suất (Statistics)
 
-# 3.Ứng dụng của Học máy:
+# 3.Ứng dụng của Học máy
 
 <p align="center">
   <img src="https://static.javatpoint.com/tutorial/machine-learning/images/applications-of-machine-learning.png" alt="*Applications of machine learning*"/>
