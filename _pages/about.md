@@ -18,7 +18,7 @@ permalink: /about/
 ---
 
 
-<p style="text-align: center;"><em>Phàm nhân thích tu tiên tới bất diệt truyền thuyết</em></p>
+<p style="text-align: center;"><em>Phàm nhân tu tiên tới bất diệt truyền thuyết</em></p>
 
 
 
