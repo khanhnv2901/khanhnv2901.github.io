@@ -6,7 +6,7 @@ tags: ML
 ---
 # Mục lục 
 
-  {% include toc.html html=content %}
+{% include toc.html html=content %}
 
 ---
 
