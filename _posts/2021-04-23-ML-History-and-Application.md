@@ -9,9 +9,11 @@ toc: true
 {% include toc.html html=content %}
 
 ---
-
- * TOC {:toc}
-
+<aside markdown="1">
+<h4>Table of Contents</h4>
+* ToC
+{:toc}
+</aside>
 ---
 # 1.Học máy là gì?
 
