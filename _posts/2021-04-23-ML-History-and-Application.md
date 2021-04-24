@@ -5,11 +5,11 @@ author: "KhanhNV"
 tags: ML
 toc: true
 ---
-
-<p>
-<h1>TOC</h1>
+<aside markdown="1">
+<h2>Table of Contents</h2>
 {% include toc.html html=content %}
-</p>
+</aside>
+
 ---
 <aside markdown="1">
 <h2>Mục lục</h2>
