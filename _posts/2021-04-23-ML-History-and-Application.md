@@ -5,12 +5,7 @@ author: "KhanhNV"
 tags: ML
 toc: true
 ---
-<aside markdown="1">
-<h2>Table of Contents</h2>
-{% include toc.html html=content %}
-</aside>
 
----
 <aside markdown="1">
 <h2>Mục lục</h2>
 * ToC
@@ -41,6 +36,14 @@ Một cuốn sách tiêu biểu của nghiên cứu Học máy trong suốt nh�
     *“Máy học là một chương trình máy tính được nói là học hỏi từ kinh nghiệm E đối với một số loại nhiệm vụ T và thước đo hiệu suất P nếu hiệu suất của nó ở tác vụ T  được đo lường bởi P,  cải thiện với kinh nghiệm E”*
 
 Các lĩnh vực liên quan tới Học máy đó là Trí tuệ nhân tạo (Artificial Intelligence), Khai phá dữ liệu (Data mining), Tối ưu hóa (Optimization), Khái quát hóa ( Generalization), Xác suất (Statistics)
+
+
+<aside markdown="1">
+<h2>Mục lục</h2>
+* ToC
+{:toc}
+</aside>
+
 
 # 3.Ứng dụng của Học máy
 
