@@ -79,5 +79,13 @@ Thành thật với bản thân đi. Khóc chẳng làm sao cả và cảm thấ
   
 \>>>*u/babybopp*  
 Stress… không phải là vấn đề mày có bao nhiêu tiền khi mày ngồi suy tư vào tối chủ nhật và nhận ra mày phải tiếp tục làm việc và cứ như thế, mức độ hạnh phúc giảm, stress tăng lên. Đó là lí do tại sao mày thấy mấy người giàu khó có thể giảm căng thẳng và như đang kéo theo những quả bóng stress vậy. Một thằng khứa với 200 đô la trong tài khoản hút cần và hốc bánh tacos thấy hạnh phúc hơn nhiều. Chỉ số hạnh phúc của một quốc gia được tính theo quy chuẩn như vậy đấy.  
+  
+  
+[r/AskReddit] **lliorca336** - 64.6k points - x1 platinum - x60 silver - x1 all-seeing upvote
+
+WHAT DO YOU GENUINELY NOT UNDERSTAND?
+=====================================\
+__________________________
+
 
 
