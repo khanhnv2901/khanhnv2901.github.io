@@ -5,8 +5,6 @@ author: "KhanhNV"
 tags: ML
 toc: true
 ---
-Ở bài này chúng ta sẽ tìm hiểu khái niệm cơ bản về ML
-
 
 <aside markdown="1">
 <h2>Mục lục</h2>
