@@ -83,17 +83,16 @@ Stress… không phải là vấn đề mày có bao nhiêu tiền khi mày ng�
   
 [r/AskReddit] **lliorca336** - 64.6k points - x1 platinum - x60 silver - x1 all-seeing upvote
 
-WHAT DO YOU GENUINELY NOT UNDERSTAND?\
-  
-__________________________\
-  
-✍️ **pepchamp** - 1.8k points\
-Làm thế nào chúng ta có thể rụng nhiều tóc mỗi ngày mà tóc vẫn giữ được độ dài phù hợp ??? Đặc biệt là những người để tóc dài?  
-  
-✍️ >**ZoroeArc** - 635 points\
-Giả sử bạn rụng 100 sợi tóc mỗi ngày. Điều đó có vẻ như rất nhiều. Tuy nhiên, hầu hết mọi người có khoảng 100.000 sợi tóc trên da đầu. Đó chỉ là 0,1% tổng số tóc bạn có. Và những sợi tóc đó bắt đầu mọc trở lại khá nhanh chóng  
-  
-__________________________\
+WHAT DO YOU GENUINELY NOT UNDERSTAND?
+___
+
+✍️ **pepchamp** - 1.8k points\\
+Làm thế nào chúng ta có thể rụng nhiều tóc mỗi ngày mà tóc vẫn giữ được độ dài phù hợp ??? Đặc biệt là những người để tóc dài?
+
+✍️ >**ZoroeArc** - 635 points\\
+Giả sử bạn rụng 100 sợi tóc mỗi ngày. Điều đó có vẻ như rất nhiều. Tuy nhiên, hầu hết mọi người có khoảng 100.000 sợi tóc trên da đầu. Đó chỉ là 0,1% tổng số tóc bạn có. Và những sợi tóc đó bắt đầu mọc trở lại khá nhanh chóng
+
+___
 
 
 
