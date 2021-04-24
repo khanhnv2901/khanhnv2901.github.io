@@ -6,7 +6,7 @@ tags: ML
 toc: true
 ---
 
-{% include toc.html %}
+{% include toc.html html=content %}
 
 ---
 
