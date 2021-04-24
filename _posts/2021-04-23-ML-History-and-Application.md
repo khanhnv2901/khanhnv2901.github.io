@@ -3,6 +3,7 @@ layout: post
 title: "Học máy - Khái niệm, nguồn gốc và ứng dụng"
 author: "KhanhNV"
 tags: ML
+toc: true
 ---
 
 {% include toc.html %}
