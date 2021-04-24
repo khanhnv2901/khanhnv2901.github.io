@@ -5,8 +5,6 @@ author: "KhanhNV"
 tags: ML
 ---
 
-# Mục lục
-{% include %}
 
 # 1.Học máy là gì?
 
