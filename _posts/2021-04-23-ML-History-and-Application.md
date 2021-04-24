@@ -6,12 +6,6 @@ tags: ML
 toc: true
 ---
 
-<aside markdown="1">
-<h2>Mục lục</h2>
-* ToC
-{:toc}
-</aside>
-
 
 # 1.Học máy là gì?
 
