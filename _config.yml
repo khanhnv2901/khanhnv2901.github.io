@@ -38,3 +38,6 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 
 comments: true
+
+kramdown:
+  parse_block_html: true

@@ -5,10 +5,21 @@ author: "Khanh Nguyen Van"
 permalink: /about/
 ---
 
-## *Nhất niệm thành biển cả, nhất niệm hóa nương dâu* ##
-## *Nhất niệm trảm nghìn Ma, nhất niệm giết vạn Tiên* ##
+<p style="text-align: center;">Mình là Khánh</p>
+<p style="text-align: center;">Là một sinh viên năm hai bình thường ~~ </p>
 
-# Chỉ có niệm của ta... là Vĩnh hằng #
+*Cảm ơn vì đã đọc!*
 
-### Thanks for reading! ###
+
+
+
+
+
+---
+
+<p style="text-align: center;"><em>Phàm nhân thích tu tiên tới bất diệt truyền thuyết</em></p>
+
+
+
+
  
