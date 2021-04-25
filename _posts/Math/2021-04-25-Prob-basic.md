@@ -18,7 +18,9 @@ P(A \mid B)=\frac{P(A, B)}{P(B)}
 \end{equation}
 $$
 
-Suy ra: $$P(A,B) = P(A)P(B|A) = P(B)P(A|B)$$
+Suy ra: $$\begin{equation}
+P(A, B)=P(A) P(B \mid A)=P(B) P(A \mid B)
+\end{equation}$$
 
 
 Trong đó: P(A,B) hay P(AB) là xác suất của A và B, xảy ra khi cả hai biến cố A, B xảy ra.
