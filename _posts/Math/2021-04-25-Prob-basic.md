@@ -38,22 +38,24 @@ P(A, B)=P(A) P(B \mid A)=P(B) P(A \mid B)
 
 Trong đó: $P(A,B)$ hay $P(AB)$ là xác suất của $A$ và $B$, xảy ra khi cả hai biến cố $A$, $B$ xảy ra.
 
-  * Nếu $A, B$ độc lập (biến cố $A$ xảy ra hay không cũng không ảnh hưởng tới biến cố $B$). Thì: 
+  - Nếu $A, B$ độc lập (biến cố $A$ xảy ra hay không cũng không ảnh hưởng tới biến cố $B$). Thì: 
 
-$$\begin{equation}
+$$
+\begin{equation}
 P(A,B) = P(A)P(B)
-\end{equation}$$
+\end{equation}
+$$
 
-Mở rộng cho n biến cố:
+* Mở rộng cho n biến cố:
 
 $P(A1A2A3...An) = P(A1).P(A2 \mid A1).P(A3 \mid A2A1)...P(An \mid A1A2...An-1)$
 
-Nếu $A1,A2,...An$ độc lập thì:
+* Nếu $A1,A2,...An$ độc lập thì:
 
 $P(A1,A2,...An) = P(A1)P(A2)...P(An)$
 
-Công thức Xác suất toàn phần và Bayes
-a, Công thức Xác suất toàn phần
+# 2.Công thức Xác suất toàn phần và Bayes
+## 2.1 Công thức Xác suất toàn phần
 
 Cho A1,A2,A3,...An là nhóm biến cố đầy đủ (là nhóm biến cố xung khắc, tổng của chúng bao phủ hết không gian mẫu) 
 Nhóm biến cố xung khắc có nghĩa các biến cố trong nhóm đôi một xung khắc với nhau. 2 biến cố xung khắc là hai biến cố không cùng xảy ra trong cùng một phép thử.
