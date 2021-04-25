@@ -4,7 +4,7 @@ title: "
 Xác suất cơ bản"
 author: "KhanhNV"
 tags: Prob
-
+usemathjax: true
 ---
 
 Xác suất có điều kiện
