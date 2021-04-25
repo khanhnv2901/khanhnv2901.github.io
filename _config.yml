@@ -50,4 +50,3 @@ comments:
 		num_posts : # 5 (default)
 		colorscheme : # "light" (default), "dark"
 
-comments: true
