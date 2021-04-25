@@ -124,8 +124,6 @@ $$
 	Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
 
 <p style="text-align: center;">
-	|---------------+------------+--------------+---------------+--------------|
-	|               |            |              |               |              |
 	|:--------------|:-----------|:-------------|:-------------:|:-------------|
 	| $X$           | $x_1$      | $x_2$        | ...           | $x_n$        |
 	|:--------------|:-----------|:-------------|:-------------:|:-------------|
@@ -133,32 +131,23 @@ $$
 	
 </p>
 
-<table><caption>Phone numbers</caption>
-<thead>
-	<tr>
-		<th>Name</th>
-		<th colspan="2">Phone</th>
-	</tr>
-</thead>
+<table>
 <tbody>
 	<tr>
-		<td>John</td>
-		<td>577854</td>
-		<td>577855</td>
+		<td>$X$</td>
+		<td>$x_1$</td>
+		<td>$x_2$</td>
+		<td>...</td>
+		<td>$x_n$</td>
 	</tr>
 	<tr>
-		<td>Jack</td>
-		<td>577856</td>
-		<td>577857</td>
+		<td>$P$</td>
+		<td>$p_1$</td>
+		<td>$p_2$</td>
+		<td>...</td>
+		<td>$p_n$</td>
 	</tr>
 </tbody>
-<tfoot>
-	<tr>
-		<td>&nbsp;</td>
-		<td>Personal</td>
-		<td>Office</td>
-	</tr>
-</tfoot>
 </table>
 
 ## 3.2 Đại lượng ngẫu nhiên liên tục
