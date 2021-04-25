@@ -98,21 +98,21 @@ $$
 		
 		$A$ là biến cố: "Sâu chết trong đợt phun thuốc"
 		
-		Ta có: $A = A_1 + A_1 A_2 + A_1 A_2 A_3$
-		
-		$$
+		Ta có: $$
 		\begin{equation}
+		A = A_1 + A_1 A_2 + A_1 A_2 A_3
+		
  		P(A) = P(A_1) + P(A_1)P(A_2 \mid A_1) + P(A_1)P(A_2 \mid A_1)P(A_3 \mid A_2 A_1)
-		\end{equation}
-		$$
 		
 	    	= 0,5 + 0,5.0,7 + 0,5.(1-0,7).0,9
 		
 	   	= 0,5 + 0,35 + 0,135 = 0,985
+		\end{equation}
+		$$
 
 # 3. Đại lượng ngẫu nhiên (ĐLNN)
 
-* Ví dụ như gieo 1 con xúc xắc, Đại lượng ngẫu nhiên X là số chấm xuất hiện (1,2,3,4,5,6)
+* Ví dụ như gieo 1 con xúc xắc, Đại lượng ngẫu nhiên $X$ là số chấm xuất hiện $(1,2,3,4,5,6)$
 
 ## 3.1 Đại lượng ngẫu nhiên rời rạc
 
@@ -122,24 +122,22 @@ $$
 
 * ĐLNN $X = {x_1, x_2, \ldots ,x_n}$ với $P{X = x_i}=p_i$
 	
-	Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
+		Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
 		
-X
-x1
-x2
-...
-xn
-P
-p1
-p2
-...
-pn
+------------ | -------------		
+$X$ | $x_1$ | $x_2$ | \cdots | $x_n$ |
+$P$ | $p_1$ | $P_2$ | \cdots | $p_n$ |
 
 
-	b, Đại lượng ngẫu nhiên liên tục
-Là đại lượng ngẫu nhiên có tập giá trị trong (a,b) hoặc [a,b]
-Mô tả ĐLNN liên tục bằng cách dùng hàm mật độ
-Hàm mật độ xác suất dùng để ước lượng độ tập trung xác suất tại lân cận điểm nào đó. 
+
+## 3.2 Đại lượng ngẫu nhiên liên tục
+
+Là đại lượng ngẫu nhiên có tập giá trị trong $(a,b)$ hoặc $[a,b]$
+
+* Mô tả ĐLNN liên tục bằng cách dùng hàm mật độ
+
+* Hàm mật độ xác suất dùng để ước lượng độ tập trung xác suất tại lân cận điểm nào đó. 
+
 P(aXb) = abf(x)dx	
 Hàm mật độ f(x) là hàm số thỏa mãn 2 điều kiện:
 f(x)0; x(-,+)
