@@ -3,7 +3,7 @@ layout: post
 title: "
 Xác suất cơ bản"
 author: "KhanhNV"
-tags: Reddit
+tags: Prob
 
 ---
 
