@@ -20,6 +20,16 @@ $$
 
 $$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
 
+\begin{Center}
+Công\ thức:  {\fontsize{17pt}{20.4pt}\selectfont \textit{P(A$ \vert $ B)}{\fontsize{20pt}{24.0pt}\selectfont \textit{ =  \( \frac{P \left( A,B \right) }{P \left( B \right) } \) }}}
+\end{Center}
+
+\vspace{\baselineskip}
+\begin{adjustwidth}{0.5in}{0.0in}
+Suy ra: {\fontsize{17pt}{20.4pt}\selectfont \textit{P(A,B) = P(A)P(B$ \vert $ A) = P(B)P(A$ \vert $ B)}}
+\end{adjustwidth}
+
+
 Suy ra: P(A,B) = P(A)P(B|A) = P(B)P(A|B)
 
 Trong đó: P(A,B) hay P(AB) là xác suất của A và B, xảy ra khi cả hai biến cố A, B xảy ra.
