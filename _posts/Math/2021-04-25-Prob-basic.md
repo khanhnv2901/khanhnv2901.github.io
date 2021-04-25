@@ -93,11 +93,21 @@ $$
 
 * Ví dụ: Phun thuốc trừ sâu cho lúa 3 lần liên tiếp trong 1 tuần. Xác suất sâu bị chết sau lần phun 1 là 0,5. Nếu sâu sống sót thì xác suất sâu bị chết sau lần phun 2 là 0,7. Tương tự sau lần phun 3 là 0,9. Tìm xác suất để sau bị chết sau đợt phun thuốc
 	* Lời giải:
-		Gọi Ailà biến cố: "Sâu chết trong lần phun thuốc thứ i", i=1,2,3
-		A là biến cố: "Sâu chết trong đợt phun thuốc"
-		Ta có: A = A1+ A1A2+ A1A2A3
- 		P(A) = P(A1) +P(A1)P(A2|A1) + P(A1)P(A2|A1)P(A3|A2A1)
+	
+		Gọi $A_i$ là biến cố: "Sâu chết trong lần phun thuốc thứ i", i=1,2,3
+		
+		$A$ là biến cố: "Sâu chết trong đợt phun thuốc"
+		
+		Ta có: $A = A_1 + A_1 A_2 + A_1 A_2 A_3
+		
+		$$
+		\begin{equation}
+ 		P(A) = P(A_1) + P(A_1)P(A_2 \mid A_1) + P(A_1)P(A_2 \mid A_1)P(A_3 \mid A_2 A_1)
+		\end{equation}
+		$$
+		
 	    	= 0,5 + 0,5.0,7 + 0,5.(1-0,7).0,9
+		
 	   	= 0,5 + 0,35 + 0,135 = 0,985
 
 # 3. Đại lượng ngẫu nhiên (ĐLNN)
@@ -110,7 +120,7 @@ $$
 	
 * Đặc trưng cho ĐLNN rời rạc là bảng phân phối xác suất.
 
-* ĐLNN $X = {x_1, x_2, ldots ,x_n}$ với $P{X = x_i}=p_i$
+* ĐLNN $X = {x_1, x_2, \ldots ,x_n}$ với $P{X = x_i}=p_i$
 	
 	Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
 		
