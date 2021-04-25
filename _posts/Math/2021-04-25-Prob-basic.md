@@ -10,7 +10,7 @@ tags: Prob
 Xác suất có điều kiện
 Với hai biến cố A, B. Xác suất có điều kiện là xác suất của biến cố A với điều kiện biến cố B đã xảy ra.
 
-Công thức:  P(A|B) = P(A,B)P(B)
+Công thức:  $$ P(A \mid B)=\frac{P(A, B)}{P(B)} $$
 
 Suy ra: P(A,B) = P(A)P(B|A) = P(B)P(A|B)
 
