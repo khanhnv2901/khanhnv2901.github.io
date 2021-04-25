@@ -101,11 +101,8 @@ $$
 		Ta có: $$
 		\begin{equation}
 		A = A_1 + A_1 A_2 + A_1 A_2 A_3
-		
  		P(A) = P(A_1) + P(A_1)P(A_2 \mid A_1) + P(A_1)P(A_2 \mid A_1)P(A_3 \mid A_2 A_1)
-		
 	    	= 0,5 + 0,5.0,7 + 0,5.(1-0,7).0,9
-		
 	   	= 0,5 + 0,35 + 0,135 = 0,985
 		\end{equation}
 		$$
@@ -122,12 +119,12 @@ $$
 
 * ĐLNN $X = {x_1, x_2, \ldots ,x_n}$ với $P{X = x_i}=p_i$
 	
-		Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
+	Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
 		
------------- | -------------		
-$X$ | $x_1$ | $x_2$ | \cdots | $x_n$ |
-$P$ | $p_1$ | $P_2$ | \cdots | $p_n$ |
-
+		
+		| $X$ | $x_1$ | $x_2$ | \cdots | $x_n$ |
+		| --- | --- | --- | --- | --- | --- |
+		| $P$ | $p_1$ | $P_2$ | \cdots | $p_n$ |
 
 
 ## 3.2 Đại lượng ngẫu nhiên liên tục
