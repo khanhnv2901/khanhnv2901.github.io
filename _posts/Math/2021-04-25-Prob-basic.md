@@ -48,43 +48,71 @@ $$
 
 * Mở rộng cho n biến cố:
 
-$P(A1A2A3...An) = P(A1).P(A2 \mid A1).P(A3 \mid A2A1)...P(An \mid A1A2...An-1)$
+$$
+\begin{equation}
+P(A1A2A3 \ldots An) = P(A1).P(A2 \mid A1).P(A3 \mid A2A1) \ldots P(An \mid A1A2 \ldots An-1)
+\end{equation}
+$$
 
-* Nếu $A1,A2,...An$ độc lập thì:
+* Nếu $A1,A2, \ldots ,An$ độc lập thì:
 
-$P(A1,A2,...An) = P(A1)P(A2)...P(An)$
+$$
+\begin{equation}
+P(A1,A2, \ldots ,An) = P(A1)P(A2) \cdots P(An)
+\end{equation}
+$$
 
 # 2.Công thức Xác suất toàn phần và Bayes
 ## 2.1 Công thức Xác suất toàn phần
 
-Cho A1,A2,A3,...An là nhóm biến cố đầy đủ (là nhóm biến cố xung khắc, tổng của chúng bao phủ hết không gian mẫu) 
+Cho $A1,A2,A3, \ldots ,An$ là nhóm biến cố đầy đủ (là nhóm biến cố xung khắc, tổng của chúng bao phủ hết không gian mẫu) 
+
 Nhóm biến cố xung khắc có nghĩa các biến cố trong nhóm đôi một xung khắc với nhau. 2 biến cố xung khắc là hai biến cố không cùng xảy ra trong cùng một phép thử.
 
-P(B) = P(B|A1)P(A1) +P(B|A2)P(A2)+...+P(B|An)P(An)
- P(B) = i=1nP(B)P(B|Ai)
+$$
+\begin{equation}
+P(B) = P(B \mid A1)P(A1) + P(B \mid A2)P(A2) + \cdots + P(B \mid An)P(An)
+\end{equation}
+$$
 
-b, Công thức Bayes
-P(A|B) = P(B|A)P(A)P(B)
+Công thức rút gọn: 
 
-Ví dụ: Phun thuốc trừ sâu cho lúa 3 lần liên tiếp trong 1 tuần. Xác suất sâu bị chết sau lần phun 1 là 0,5. Nếu sâu sống sót thì xác suất sâu bị chết sau lần phun 2 là 0,7. Tương tự sau lần phun 3 là 0,9. Tìm xác suất để sau bị chết sau đợt phun thuốc
-Lời giải:
-	Gọi Ailà biến cố: "Sâu chết trong lần phun thuốc thứ i", i=1,2,3
-	A là biến cố: "Sâu chết trong đợt phun thuốc"
-Ta có: A = A1+ A1A2+ A1A2A3
- P(A) = P(A1) +P(A1)P(A2|A1) + P(A1)P(A2|A1)P(A3|A2A1)
-	    = 0,5 + 0,5.0,7 + 0,5.(1-0,7).0,9
-	    = 0,5 + 0,35 + 0,135 = 0,985
+$$
+\begin{equation}
+P(B) = \sum_{i=1}^{N} P(B)P(B \mid Ai)
+\end{equation}
+$$
 
-Đại lượng ngẫu nhiên (ĐLNN)
-Ví dụ như gieo 1 con xúc xắc, Đại lượng ngẫu nhiên X là số chấm xuất hiện (1,2,3,4,5,6)
+## 2.2 Công thức Bayes
 
-	a, Đại lượng ngẫu nhiên rời rạc
-Là đại lượng ngẫu nhiên có tập giá trị vô hạn hoặc hữu hạn các số thực
+$$
+\begin{equation}
+P(A \mid B) = P(B \mid A)P(A)P(B)
+\end{equation}
+$$
+
+* Ví dụ: Phun thuốc trừ sâu cho lúa 3 lần liên tiếp trong 1 tuần. Xác suất sâu bị chết sau lần phun 1 là 0,5. Nếu sâu sống sót thì xác suất sâu bị chết sau lần phun 2 là 0,7. Tương tự sau lần phun 3 là 0,9. Tìm xác suất để sau bị chết sau đợt phun thuốc
+	* Lời giải:
+		Gọi Ailà biến cố: "Sâu chết trong lần phun thuốc thứ i", i=1,2,3
+		A là biến cố: "Sâu chết trong đợt phun thuốc"
+		Ta có: A = A1+ A1A2+ A1A2A3
+ 		P(A) = P(A1) +P(A1)P(A2|A1) + P(A1)P(A2|A1)P(A3|A2A1)
+	    	= 0,5 + 0,5.0,7 + 0,5.(1-0,7).0,9
+	   	= 0,5 + 0,35 + 0,135 = 0,985
+
+# 3. Đại lượng ngẫu nhiên (ĐLNN)
+
+* Ví dụ như gieo 1 con xúc xắc, Đại lượng ngẫu nhiên X là số chấm xuất hiện (1,2,3,4,5,6)
+
+## 3.1 Đại lượng ngẫu nhiên rời rạc
+
+* Là đại lượng ngẫu nhiên có tập giá trị vô hạn hoặc hữu hạn các số thực
 	
-Đặc trưng cho ĐLNN rời rạc là bảng phân phối xác suất.
-ĐLNN X={x1,x2,...xn}với P{X=xi}=pi
+* Đặc trưng cho ĐLNN rời rạc là bảng phân phối xác suất.
+
+* ĐLNN $X = {x_1, x_2, ldots ,x_n}$ với $P{X = x_i}=p_i$
 	
-	Bảng phân phối xác suất: i=1npi=1
+	Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
 		
 X
 x1
