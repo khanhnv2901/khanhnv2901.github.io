@@ -10,7 +10,7 @@ usemathjax: true
 Xác suất có điều kiện
 Với hai biến cố A, B. Xác suất có điều kiện là xác suất của biến cố A với điều kiện biến cố B đã xảy ra.
 
-Công thức:  $$ P(A \mid B)=\frac{P(A, B)}{P(B)} $$
+Công thức:
 
 $$
 \begin{equation}
@@ -18,19 +18,8 @@ P(A \mid B)=\frac{P(A, B)}{P(B)}
 \end{equation}
 $$
 
-$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
+Suy ra: $$P(A,B) = P(A)P(B|A) = P(B)P(A|B)$$
 
-\begin{Center}
-Công\ thức:  {\fontsize{17pt}{20.4pt}\selectfont \textit{P(A$ \vert $ B)}{\fontsize{20pt}{24.0pt}\selectfont \textit{ =  \( \frac{P \left( A,B \right) }{P \left( B \right) } \) }}}
-\end{Center}
-
-\vspace{\baselineskip}
-\begin{adjustwidth}{0.5in}{0.0in}
-Suy ra: {\fontsize{17pt}{20.4pt}\selectfont \textit{P(A,B) = P(A)P(B$ \vert $ A) = P(B)P(A$ \vert $ B)}}
-\end{adjustwidth}
-
-
-Suy ra: P(A,B) = P(A)P(B|A) = P(B)P(A|B)
 
 Trong đó: P(A,B) hay P(AB) là xác suất của A và B, xảy ra khi cả hai biến cố A, B xảy ra.
 Nếu A, B độc lập (biến cố A xảy ra hay không cũng không ảnh hưởng tới biến cố B). Thì: 
