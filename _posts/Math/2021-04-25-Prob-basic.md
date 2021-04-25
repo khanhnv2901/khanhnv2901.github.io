@@ -50,28 +50,28 @@ $$
 
 $$
 \begin{equation}
-P(A1A2A3 \ldots An) = P(A1).P(A2 \mid A1).P(A3 \mid A2A1) \ldots P(An \mid A1A2 \ldots An-1)
+P(A_1 A_2 A_3 \ldots A_n) = P(A_1).P(A_2 \mid A_1).P(A_3 \mid A_2 A_1) \ldots P(A_n \mid A_1 A_2 \ldots A_(n-1))
 \end{equation}
 $$
 
-* Nếu $A1,A2, \ldots ,An$ độc lập thì:
+* Nếu $A_1, A_2, \ldots ,A_n$ độc lập thì:
 
 $$
 \begin{equation}
-P(A1,A2, \ldots ,An) = P(A1)P(A2) \cdots P(An)
+P(A_1,A_2, \ldots ,A_n) = P(A_1)P(A_2) \cdots P(A_n)
 \end{equation}
 $$
 
 # 2.Công thức Xác suất toàn phần và Bayes
 ## 2.1 Công thức Xác suất toàn phần
 
-Cho $A1,A2,A3, \ldots ,An$ là nhóm biến cố đầy đủ (là nhóm biến cố xung khắc, tổng của chúng bao phủ hết không gian mẫu) 
+Cho $A_1, A_2, A_3, \ldots ,A_n$ là nhóm biến cố đầy đủ (là nhóm biến cố xung khắc, tổng của chúng bao phủ hết không gian mẫu) 
 
 Nhóm biến cố xung khắc có nghĩa các biến cố trong nhóm đôi một xung khắc với nhau. 2 biến cố xung khắc là hai biến cố không cùng xảy ra trong cùng một phép thử.
 
 $$
 \begin{equation}
-P(B) = P(B \mid A1)P(A1) + P(B \mid A2)P(A2) + \cdots + P(B \mid An)P(An)
+P(B) = P(B \mid A_1)P(A_1) + P(B \mid A_2)P(A_2) + \cdots + P(B \mid A_n)P(A_n)
 \end{equation}
 $$
 
@@ -79,7 +79,7 @@ Công thức rút gọn:
 
 $$
 \begin{equation}
-P(B) = \sum_{i=1}^{N} P(B)P(B \mid Ai)
+P(B) = \sum_{i=1}^{N} P(B)P(B \mid A_i)
 \end{equation}
 $$
 
@@ -98,7 +98,7 @@ $$
 		
 		$A$ là biến cố: "Sâu chết trong đợt phun thuốc"
 		
-		Ta có: $A = A_1 + A_1 A_2 + A_1 A_2 A_3
+		Ta có: $A = A_1 + A_1 A_2 + A_1 A_2 A_3$
 		
 		$$
 		\begin{equation}
