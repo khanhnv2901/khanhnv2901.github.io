@@ -1,4 +1,11 @@
-XÁC SUẤT
+---
+layout: post
+title: "
+Xác suất cơ bản"
+author: "KhanhNV"
+tags: Reddit
+
+---
 
 Xác suất có điều kiện
 Với hai biến cố A, B. Xác suất có điều kiện là xác suất của biến cố A với điều kiện biến cố B đã xảy ra.
