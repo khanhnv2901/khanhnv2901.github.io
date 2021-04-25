@@ -45,3 +45,5 @@ kramdown:
   
 comments: true 
 
+
+theme: jekyll-theme-cayman
