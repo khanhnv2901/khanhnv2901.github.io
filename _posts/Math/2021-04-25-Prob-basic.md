@@ -12,9 +12,11 @@ Với hai biến cố A, B. Xác suất có điều kiện là xác suất của
 
 Công thức:  $$ P(A \mid B)=\frac{P(A, B)}{P(B)} $$
 
+$$ 
 \begin{equation}
 P(A \mid B)=\frac{P(A, B)}{P(B)}
 \end{equation}
+$$
 
 Suy ra: P(A,B) = P(A)P(B|A) = P(B)P(A|B)
 
