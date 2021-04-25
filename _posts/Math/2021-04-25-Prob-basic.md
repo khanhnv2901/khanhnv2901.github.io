@@ -5,10 +5,23 @@ Xác suất cơ bản"
 author: "KhanhNV"
 tags: Prob
 usemathjax: true
+toc: true
 ---
 
-Xác suất có điều kiện
-Với hai biến cố A, B. Xác suất có điều kiện là xác suất của biến cố A với điều kiện biến cố B đã xảy ra.
+Lý thuyết xác suất là công cụ cơ bản và là tiền đề cho học máy. Việc nắm vững lý thuyết xác suất rất quan trọng. Trong phần này, tôi sẽ tóm lược lại một số lý thuyết cơ bản.
+
+
+<aside markdown="1">
+<h2>Mục lục</h2>
+* ToC
+{:toc}
+</aside>
+
+
+# 1.Xác suất có điều kiện
+
+
+Với hai biến cố $A$, $B$. Xác suất có điều kiện là xác suất của biến cố $A$ với điều kiện biến cố $B$ đã xảy ra.
 
 Công thức:
 
@@ -18,20 +31,24 @@ P(A \mid B)=\frac{P(A, B)}{P(B)}
 \end{equation}
 $$
 
-Suy ra: $$\begin{equation}
+Suy ra: 	$$\begin{equation}
 P(A, B)=P(A) P(B \mid A)=P(B) P(A \mid B)
 \end{equation}$$
 
 
-Trong đó: $$P(A,B)$$ hay $P(AB)$ là xác suất của $A$ và $B$, xảy ra khi cả hai biến cố $A$, $B$ xảy ra.
+Trong đó: 	$P(A,B)$ hay $P(AB)$ là xác suất của $A$ và $B$, xảy ra khi cả hai biến cố $A$, $B$ xảy ra.
+
 Nếu A, B độc lập (biến cố A xảy ra hay không cũng không ảnh hưởng tới biến cố B). Thì: 
-P(A,B) = P(A)P(B)
+
+$P(A,B) = P(A)P(B)$
 
 Mở rộng cho n biến cố:
-P (A1A2A3...An) = P(A1).P(A2|A1).P(A3|A2A1)...
-P(An|A1A2...An-1)
-Nếu A1,A2,...An độc lập thì:
-P(A1,A2,...An) = P(A1)P(A2)...P(An)
+
+$P(A1A2A3...An) = P(A1).P(A2 \mid A1).P(A3 \mid A2A1)...P(An \mid A1A2...An-1)$
+
+Nếu $A1,A2,...An$ độc lập thì:
+
+$P(A1,A2,...An) = P(A1)P(A2)...P(An)$
 
 Công thức Xác suất toàn phần và Bayes
 a, Công thức Xác suất toàn phần
