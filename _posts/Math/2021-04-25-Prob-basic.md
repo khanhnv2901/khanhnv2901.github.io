@@ -94,19 +94,19 @@ $$
 * Ví dụ: Phun thuốc trừ sâu cho lúa 3 lần liên tiếp trong 1 tuần. Xác suất sâu bị chết sau lần phun 1 là 0,5. Nếu sâu sống sót thì xác suất sâu bị chết sau lần phun 2 là 0,7. Tương tự sau lần phun 3 là 0,9. Tìm xác suất để sau bị chết sau đợt phun thuốc
 	* Lời giải:
 	
-		Gọi $A_i$ là biến cố: "Sâu chết trong lần phun thuốc thứ i", i=1,2,3
+	: Gọi $A_i$ là biến cố: "Sâu chết trong lần phun thuốc thứ i", i=1,2,3
 		
-		$A$ là biến cố: "Sâu chết trong đợt phun thuốc"
+	: $A$ là biến cố: "Sâu chết trong đợt phun thuốc"
 		
-		Ta có: $A = A_1 + A_1 A_2 + A_1 A_2 A_3$
+	: Ta có: $A = A_1 + A_1 A_2 + A_1 A_2 A_3$
 		
-		Suy ra:
+	: Suy ra:
 		
- 		$P(A) = P(A_1) + P(A_1)P(A_2 \mid A_1) + P(A_1)P(A_2 \mid A_1)P(A_3 \mid A_2 A_1)$
+ 	: $P(A) = P(A_1) + P(A_1)P(A_2 \mid A_1) + P(A_1)P(A_2 \mid A_1)P(A_3 \mid A_2 A_1)$
 		
-	    	$= 0,5 + 0,5.0,7 + 0,5.(1-0,7).0,9$
+	: $= 0,5 + 0,5.0,7 + 0,5.(1-0,7).0,9$
 		
-	   	$= 0,5 + 0,35 + 0,135 = 0,985$
+	: $= 0,5 + 0,35 + 0,135 = 0,985$
 
 
 # 3. Đại lượng ngẫu nhiên (ĐLNN)
@@ -125,6 +125,19 @@ $$
 		
 	| $X$ | $x_1$ | $x_2$ | \cdots | $x_n$ |
 	| $P$ | $p_1$ | $P_2$ | \cdots | $p_n$ |
+	
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
 
 
 ## 3.2 Đại lượng ngẫu nhiên liên tục
