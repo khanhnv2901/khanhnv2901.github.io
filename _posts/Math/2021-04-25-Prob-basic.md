@@ -122,12 +122,44 @@ $$
 * ĐLNN $X = {x_1, x_2, \ldots ,x_n}$ với $P{X = x_i}=p_i$
 	
 	Bảng phân phối xác suất: $\sum_{i=1}^{N} P_i = 1$
-	
+
+<p style="text-align: center;">
+	|---------------+------------+--------------+---------------+--------------|
+	|               |            |              |               |              |
 	|:--------------|:-----------|:-------------|:-------------:|:-------------|
 	| $X$           | $x_1$      | $x_2$        | ...           | $x_n$        |
 	|:--------------|:-----------|:-------------|:-------------:|:-------------|
 	| $P$           | $p_1$      | $P_2$        | ...           | $p_n$        |
 	
+</p>
+
+<table><caption>Phone numbers</caption>
+<thead>
+	<tr>
+		<th>Name</th>
+		<th colspan="2">Phone</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>John</td>
+		<td>577854</td>
+		<td>577855</td>
+	</tr>
+	<tr>
+		<td>Jack</td>
+		<td>577856</td>
+		<td>577857</td>
+	</tr>
+</tbody>
+<tfoot>
+	<tr>
+		<td>&nbsp;</td>
+		<td>Personal</td>
+		<td>Office</td>
+	</tr>
+</tfoot>
+</table>
 
 ## 3.2 Đại lượng ngẫu nhiên liên tục
 
