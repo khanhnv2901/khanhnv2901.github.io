@@ -36,11 +36,13 @@ P(A, B)=P(A) P(B \mid A)=P(B) P(A \mid B)
 \end{equation}$$
 
 
-Trong đó: 	$P(A,B)$ hay $P(AB)$ là xác suất của $A$ và $B$, xảy ra khi cả hai biến cố $A$, $B$ xảy ra.
+Trong đó: $P(A,B)$ hay $P(AB)$ là xác suất của $A$ và $B$, xảy ra khi cả hai biến cố $A$, $B$ xảy ra.
 
-Nếu A, B độc lập (biến cố A xảy ra hay không cũng không ảnh hưởng tới biến cố B). Thì: 
+  * Nếu $A, B$ độc lập (biến cố $A$ xảy ra hay không cũng không ảnh hưởng tới biến cố $B$). Thì: 
 
-$P(A,B) = P(A)P(B)$
+$$\begin{equation}
+P(A,B) = P(A)P(B)
+\end{equation}$$
 
 Mở rộng cho n biến cố:
 
