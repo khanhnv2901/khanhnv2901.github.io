@@ -273,7 +273,7 @@ P_n (m, p) = \left(
 	      m \\
 	      n
 	    \end{array}
-	  \right) = p^m (1 - p)^{n-m}
+	  \right) p^m (1 - p)^{n-m}
 \end{equation}
 $$
 >
@@ -284,7 +284,7 @@ $$
 	      5 \\
 	      4
 	    \end{array}
-	  \right) = 0,74.(1-0,7)5-4 = 0,36015
+	  \right) 0,74 (1-0,7)^{5-4} = 0,36015
 \end{equation}
 $$
 > 
@@ -298,14 +298,14 @@ $$
 Công thức:  
 
 $$
-\begin{equation}{aligned}
+\begin{aligned}
 P(X=x) = \left(
 	    \begin{array}{c}
 	      m \\
 	      n
 	    \end{array}
 	  \right) p^x (1-p)^{n - x}
-\end{equation}{aligned}
+\end{aligned}
 $$
 , với $x=0,1,2..n$
 
@@ -337,7 +337,9 @@ $$
 và $$
 \frac{n !}{n^{x} .(n-x) !} \approx 1
 $$ 
+
 nên suy ra: 
+
 $$
 \mathrm{p}(\mathrm{x}) \approx \frac{\lambda^{x}}{x !} e^{-\lambda}
 $$
@@ -356,7 +358,7 @@ Ta nói $X$ tuân theo **phân phối Poisson:** $X \sim P(\lambda) $
 >
 > Xác suất để trong 1 phút có không quá 2 sợi bị đứt là:
 > 
-> P(X \leq 2) = P(X=0) + P(X=1) + P(X=2)
+> $ P(X \leq 2) = P(X=0) + P(X=1) + P(X=2) $
 > 
 > $$
 =\frac{\lambda^{0}}{0 !} \cdot e^{-1}+\frac{\lambda^{1}}{1 !} \cdot e^{-1}+\frac{\lambda^{2}}{2 !} \cdot e^{-1}=0,9225
