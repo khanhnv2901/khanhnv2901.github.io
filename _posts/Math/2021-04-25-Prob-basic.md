@@ -220,7 +220,7 @@ Nên dễ dẫn tới các giá trị sai. Vì vậy chúng ta đưa nó về gi
 
 # 5. Phân phối xác suất
 ## 5.1. Đối với đại lượng ngẫu nhiên rời rạc
-### Phân phối nhị thức 
+### 5.1.1 Phân phối nhị thức 
 
 * Là phân phối khi tiến hành n lần phép thử Bernoulli. Gọi $X$ là số lần xuất hiện biến cố $A$ với $P(A) = p, p \in R, 0 \leq p1 \leq $
 
@@ -228,38 +228,86 @@ Nên dễ dẫn tới các giá trị sai. Vì vậy chúng ta đưa nó về gi
 	* Ý nghĩa: xác suất để A xuất hiện đúng m lần trong n lần thực hiện một phép thử. (n phép thử độc lập)
 	*
 	* Công thức: 
-	* 
+	
 $$
 \begin{equation}	
-P_n (m, p) = Cnmpm(1-p)n-m
+P_n (m, p) = \left(
+	    \begin{array}{c}
+	      m \\
+	      n
+	    \end{array}
+	  \right) = p^m (1 - p)^{n-m}
+\end{equation}
+$$
 
-Ví dụ phép thử Bernoulli: Xác suất trúng đích của một xạ thủ là 0,7. Tìm xác suất để xạ thủ này bắn 5 viên đạn thì 4 viên trúng đích.
 
-	Lời giải:
-	Gọi A là biến cố: "Xạ thủ bắn trúng đích"
-	Ta có P(A) = 0,7.
-	Gọi B là biến cố: "Xạ thủ bắn 5 viên trúng đích 4 viên"
-	Áp dụng công thức với n=5, m=4, p=0,7
-	
-	Ta có: P(B) = Pn(m,p) = Cnmpm(1-p)n-m
-				        = C54.0,74.(1-0,7)5-4 = 0,36015
-	Vậy xác suất để xạ thủ bắn 5 viên có 4 viên trúng đích là 0,36015
+*Ví dụ phép thử Bernoulli:* Xác suất trúng đích của một xạ thủ là 0,7. Tìm xác suất để xạ thủ này bắn 5 viên đạn thì 4 viên trúng đích.
 
-Trở lại với phân phối nhị thức:
-Nói ngắn gọn, Phân phối nhị thức thể hiện xác suất để X lần thành công trong n phép thử, với xác suất thành công p của mỗi phép thử.
+> Lời giải:
+> 
+> Gọi A là biến cố: "Xạ thủ bắn trúng đích"
+> 
+> Ta có P(A) = 0,7.
+> 
+> Gọi B là biến cố: "Xạ thủ bắn 5 viên trúng đích 4 viên"
+> 
+> Áp dụng công thức với n=5, m=4, p=0,7
+>
+> Ta có: 
+> 
+> $$
+\begin{equation}	
+P_n (m, p) = \left(
+	    \begin{array}{c}
+	      m \\
+	      n
+	    \end{array}
+	  \right) = p^m (1 - p)^{n-m}
+\end{equation}
+$$
+>
+> = \left(
+	    \begin{array}{c}
+	      5 \\
+	      4
+	    \end{array}
+	  \right) = 0,74.(1-0,7)5-4 = 0,36015
+> 
+> Vậy xác suất để xạ thủ bắn 5 viên có 4 viên trúng đích là 0,36015
 
-Công thức:  P(X=x) = Cnx.px.(1-p)n-x, với x=0,1,2..n
 
-Tính chất: E(X) = np, D(X) = np(1 - p)
+**Trở lại với phân phối nhị thức:**
 
-Ta nói X tuân theo phân phối nhị thức:  X Bin(n,p)
+* Nói ngắn gọn, Phân phối nhị thức thể hiện xác suất để $X$ lần thành công trong $n$ phép thử, với xác suất thành công $p$ của mỗi phép thử.
 
-Có thể thấy phép thử Bernoulli là trường hợp đặc biệt của phân phối nhị thức với n = 1, Bin(1,p)
+Công thức:  
 
-b, Phân phối Poisson
-	-Là phân phối nhị thức với trường hợp n rất lớn, p rất nhỏ. 
-Đặt  = np. Ta có:
-	p(x) = Cnx.px.(1-p)n-x = n!x!(n-x)! .(n)x.(1-n)n-x
+$$
+\begin{equation}
+P(X=x) = \left(
+	    \begin{array}{c}
+	      m \\
+	      n
+	    \end{array}
+	  \right) p^x (1-p)^{n - x}
+\end{equation}
+$$
+, với x=0,1,2..n
+
+**Tính chất:** $E(X) = np, D(X) = np(1 - p)$
+
+Ta nói $X$ tuân theo phân phối nhị thức:  $X \sim Bin(n, p)$
+
+Có thể thấy **phép thử Bernoulli** là trường hợp đặc biệt của phân phối nhị thức với $n = 1, Bin(1,p)$
+
+### 5.1.2 Phân phối Poisson
+
+* Là phân phối nhị thức với trường hợp n rất lớn, p rất nhỏ. 
+* 
+Đặt $ \lambda = np $. Ta có:
+
+
+p(x) = Cnx.px.(1-p)n-x = n!x!(n-x)! .(n)x.(1-n)n-x
 	       = n!nx.(n-x)! .xx!.(1-n)n-x
 
 
