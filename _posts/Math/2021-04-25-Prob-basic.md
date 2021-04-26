@@ -270,12 +270,16 @@ P_n (m, p) = \left(
 \end{equation}
 $$
 >
-> = \left(
+> $$
+\begin{equation}
+= \left(
 	    \begin{array}{c}
 	      5 \\
 	      4
 	    \end{array}
 	  \right) = 0,74.(1-0,7)5-4 = 0,36015
+\end{equation}
+$$
 > 
 > Vậy xác suất để xạ thủ bắn 5 viên có 4 viên trúng đích là 0,36015
 
@@ -311,37 +315,33 @@ Có thể thấy **phép thử Bernoulli** là trường hợp đặc biệt c�
 * Đặt $ \lambda = np $. Ta có:
 
 $$
-\begin{equation}
-p(x) = \left(
-	    \begin{array}{c}
-	      m \\
-	      n
-	    \end{array}
-	  \right) p^x (1-p)^{n-x} 
-	  
-= n!x!(n-x)! .(n)x.(1-n)n-x
-
-= n!nx.(n-x)! .xx!.(1-n)n-x
-\end{equation}
+\begin{aligned}
+p(x) &=C_{n}^{x} p^{x} (1-p)^{n-x} = \frac{n !}{x !(n-x) !} \left(\frac{\lambda}{n}\right)^{x} \left(1-\frac{\lambda}{n}\right)^{n-x} \\
+&=\frac{n !}{n^{x} (n-x) !} \frac{\lambda^{x}}{x !} \left(1-\frac{\lambda}{n}\right)^{n-x}
+\end{aligned}
 $$
 
 Vì n rất lớn nên (1-n)x1, (1-n)ne- , với e = n(1+1n)n và n!nx.(n-x)! 1 nên suy ra: p(x) xx!.e-
 
-Tính chất: E(X) = D(X) = 
+**Tính chất:** $$E(X) = D(X) = \lambda $$
 
-Ta nói X tuân theo phân phối Poisson: XP()
+Ta nói $X$ tuân theo **phân phối Poisson:** $X \sim P(\lambda) $
 
-Ví dụ: Một máy dệt có 5000 ống sợi, xác suất trong một phút một ống sợi bị đứt là 0,0002. Tìm xác suất để trong 1 phút không quá 2 ống sợi bị đứt.
+*Ví dụ:* Một máy dệt có 5000 ống sợi, xác suất trong một phút một ống sợi bị đứt là 0,0002. Tìm xác suất để trong 1 phút không quá 2 ống sợi bị đứt.
 
-Lời giải: 
-
-Gọi X là ĐLNN chỉ số ống sợi bị đứt.
-Do n lớn, và p nhỏ nên XP() với =np = 5000.0,002 = 1
-
-Xác suất để trong 1 phút có không quá 2 sợi bị đứt là:
-P(X2) = P(X=0) + P(X=1) + P(X=2)
-	     = 00!.e-1+ 11!.e-1+ 22!.e-1= 0,9225
-Vậy xác suất trong 1 phút có không quá 2 sợi bị đứt là 0,9225
+> Lời giải: 
+>
+> Gọi X là ĐLNN chỉ số ống sợi bị đứt.
+> 
+> Do n lớn, và p nhỏ nên XP() với =np = 5000.0,002 = 1
+>
+> Xác suất để trong 1 phút có không quá 2 sợi bị đứt là:
+> 
+> P(X2) = P(X=0) + P(X=1) + P(X=2)
+> 
+> = 00!.e-1+ 11!.e-1+ 22!.e-1= 0,9225
+> 
+> Vậy xác suất trong 1 phút có không quá 2 sợi bị đứt là 0,9225
 
 
 
