@@ -130,27 +130,6 @@ $$
 	
 
 
-<p style="text-align: center;">
-<table>
-<tbody>
-	<tr>
-		<td>$X$</td>
-		<td>$x_1$</td>
-		<td>$x_2$</td>
-		<td>...</td>
-		<td>$x_n$</td>
-	</tr>
-	<tr>
-		<td>$P$</td>
-		<td>$p_1$</td>
-		<td>$p_2$</td>
-		<td>...</td>
-		<td>$p_n$</td>
-	</tr>
-</tbody>
-</table>
-</p>
-
 ## 3.2 Đại lượng ngẫu nhiên liên tục
 
 Là đại lượng ngẫu nhiên có tập giá trị trong $(a,b)$ hoặc $[a,b]$
@@ -159,50 +138,65 @@ Là đại lượng ngẫu nhiên có tập giá trị trong $(a,b)$ hoặc $[a,
 
 * Hàm mật độ xác suất dùng để ước lượng độ tập trung xác suất tại lân cận điểm nào đó. 
 
-P(aXb) = abf(x)dx	
-Hàm mật độ f(x) là hàm số thỏa mãn 2 điều kiện:
-f(x)0; x(-,+)
--+f(x)dx =1
+$$
+\begin{equation}
+P(a \leq X \leq b) = \int_{a}^{b} f(x) \,dx 
+\end{equation}
+$$
+	
+* Hàm mật độ f(x) là hàm số thỏa mãn 2 điều kiện:
+	* $ f(x) \geq 0; \forall x \in (- \infty , + \infty ) $
+	* $ \int_{- \infty}^{+ \infty} f(x) \,dx = 1 $
 
-Kỳ vọng, phương sai, độ lệch chuẩn
-a, Kỳ vọng
-Là giá trị trung bình mà ĐLNN đó nhận được
-Ký hiệu: E(X)
+# 4. Kỳ vọng, phương sai, độ lệch chuẩn
+## 4.1 Kỳ vọng
 
-E(X) = i=1nxipi nếu X là ĐLNN rời rạc
-E(X) = -+x.f(x)dx nếu X là ĐLNN liên tục
+* Là giá trị trung bình mà ĐLNN đó nhận được
 
-Ví dụ: Cho X là ĐLNN rời rạc và có bảng phân phối như sau:
+* Ký hiệu: E(X)
 
-X
--1
-0
-2
-3
-5
-P
-0,1
-0,2
-0,1
-0,3
-0,3
+$$
+\begin{equation}
+E(X) = \sum_{i=1}^n x_i p_i nếu X là ĐLNN rời rạc
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\int_{- \infty}^{+ \infty} x f(x) \,dx nếu X là ĐLNN liên tục
+\end{equation}
+$$
 
 
-Tính E(X)
-Lời giải:
-E(X) = i=15xipi= -1.0,1 + 0.0,2 + 2.0,1 + 3.0,3 + 5.0,3 = 2,5
+* *Ví dụ*: Cho $X$ là ĐLNN rời rạc và có bảng phân phối như sau:
 
-b, Phương sai 
-Đánh giá mức độ phân tán của các giá trị X quanh E(X)
-Phương sai nhỏ: Mức độ tập trung của X quanh E(X) cao
-Phương sai lớn: Mức độ phân tán lớn, các giá trị X càng xa E(X)
-Ký hiệu: D(X)
 
-D(X) = E(X - E(X))2 hay D(X) = E((X-)2) 
-với =E(X)
-Biểu thức tương đương: D(X) = E(X2) -(E(X))2
+	|:--------------|:-----------|:-------------|:--------------|:-------------|:-------------|
+	| $X$           | -1         | 0            |2              | 3            | 5            |
+	|:--------------|:-----------|:-------------|:--------------|:-------------|:-------------|
+	| $P$           | 0.1        | 0.2          | 0.1           | 0.3          | 0.3          |
 
-Trong đó: E(X2)= i=1nxi2pi nếu X rời rạc
+
+	* Tính E(X)
+	
+	> Lời giải:\\
+	> E(X) = $ \sum_{i=1}^5 x_i p_i $ = -1.0,1 + 0.0,2 + 2.0,1 + 3.0,3 + 5.0,3 = 2,5
+
+## 4.2 Phương sai 
+* Đánh giá mức độ phân tán của các giá trị X quanh E(X)
+* Phương sai nhỏ: Mức độ tập trung của X quanh E(X) cao
+* Phương sai lớn: Mức độ phân tán lớn, các giá trị X càng xa E(X)
+* Ký hiệu: D(X)
+
+$$
+\begin{equation}
+D(X) = E(X - E(X))^2 hay D(X) = E((X - \mu)^2) với \mu = E(X)
+\end{equation}
+$$
+
+Biểu thức tương đương: $ D(X) = E(X^2) -(E(X))^2 $
+
+Trong đó: E(X^2)= \sum_{i=1}^5 x_i ^2 p_i nếu X rời rạc
 	       E(X2)= -+x2f(x)dx nếu X liên tục
 c, Độ lệch chuẩn 
 	Kí hiệu:  
