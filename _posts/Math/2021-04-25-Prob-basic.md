@@ -189,8 +189,11 @@ nếu $X$ là ĐLNN liên tục
 
 ## 4.2 Phương sai 
 * Đánh giá mức độ phân tán của các giá trị $X$ quanh $E(X)$
+* 
 * Phương sai nhỏ: Mức độ tập trung của $X$ quanh $E(X)$ cao
+* 
 * Phương sai lớn: Mức độ phân tán lớn, các giá trị $X$ càng xa $E(X)$
+* 
 * Ký hiệu: $D(X)$
 
 $$
@@ -225,9 +228,10 @@ Nên dễ dẫn tới các giá trị sai. Vì vậy chúng ta đưa nó về gi
 * Là phân phối khi tiến hành n lần phép thử Bernoulli. Gọi $X$ là số lần xuất hiện biến cố $A$ với $P(A) = p, p \in R, 0 \leq p1 \leq $
 
 ***Phép thử Bernoulli:***
-	* Ý nghĩa: xác suất để A xuất hiện đúng m lần trong n lần thực hiện một phép thử. (n phép thử độc lập)
-	*
-	* Công thức: 
+
+* Ý nghĩa: xác suất để A xuất hiện đúng m lần trong n lần thực hiện một phép thử. (n phép thử độc lập)
+*
+* Công thức: 
 	
 $$
 \begin{equation}	
@@ -292,7 +296,7 @@ P(X=x) = \left(
 	  \right) p^x (1-p)^{n - x}
 \end{equation}
 $$
-, với x=0,1,2..n
+, với $x=0,1,2..n$
 
 **Tính chất:** $E(X) = np, D(X) = np(1 - p)$
 
@@ -304,12 +308,22 @@ Có thể thấy **phép thử Bernoulli** là trường hợp đặc biệt c�
 
 * Là phân phối nhị thức với trường hợp n rất lớn, p rất nhỏ. 
 * 
-Đặt $ \lambda = np $. Ta có:
+* Đặt $ \lambda = np $. Ta có:
 
+$$
+\begin{equation}
+p(x) = \left(
+	    \begin{array}{c}
+	      m \\
+	      n
+	    \end{array}
+	  \right) p^x (1-p)^{n-x} 
+	  
+= n!x!(n-x)! .(n)x.(1-n)n-x
 
-p(x) = Cnx.px.(1-p)n-x = n!x!(n-x)! .(n)x.(1-n)n-x
-	       = n!nx.(n-x)! .xx!.(1-n)n-x
-
+= n!nx.(n-x)! .xx!.(1-n)n-x
+\end{equation}
+$$
 
 Vì n rất lớn nên (1-n)x1, (1-n)ne- , với e = n(1+1n)n và n!nx.(n-x)! 1 nên suy ra: p(x) xx!.e-
 
