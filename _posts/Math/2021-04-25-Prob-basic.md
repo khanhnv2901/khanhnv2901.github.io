@@ -145,7 +145,9 @@ P(a \leq X \leq b) = \int_{a}^{b} f(x) \,dx
 $$
 	
 * Hàm mật độ f(x) là hàm số thỏa mãn 2 điều kiện:
+
 	* $ f(x) \geq 0; \forall x \in (- \infty , + \infty ) $
+	
 	* $ \int_{- \infty}^{+ \infty} f(x) \,dx = 1 $
 
 # 4. Kỳ vọng, phương sai, độ lệch chuẩn
@@ -153,19 +155,21 @@ $$
 
 * Là giá trị trung bình mà ĐLNN đó nhận được
 
-* Ký hiệu: E(X)
+* Ký hiệu: $E(X)$
 
 $$
 \begin{equation}
-E(X) = \sum_{i=1}^n x_i p_i nếu X là ĐLNN rời rạc
+E(X) = \sum_{i=1}^n x_i p_i 
 \end{equation}
 $$
+nếu $X$ là ĐLNN rời rạc
 
 $$
 \begin{equation}
-\int_{- \infty}^{+ \infty} x f(x) \,dx nếu X là ĐLNN liên tục
+\int_{- \infty}^{+ \infty} x f(x) \,dx 
 \end{equation}
 $$
+nếu $X$ là ĐLNN liên tục
 
 
 * *Ví dụ*: Cho $X$ là ĐLNN rời rạc và có bảng phân phối như sau:
@@ -179,14 +183,15 @@ $$
 
 	* Tính E(X)
 	
-	> Lời giải:\\
+	> Lời giải:
+	> 
 	> E(X) = $ \sum_{i=1}^5 x_i p_i $ = -1.0,1 + 0.0,2 + 2.0,1 + 3.0,3 + 5.0,3 = 2,5
 
 ## 4.2 Phương sai 
-* Đánh giá mức độ phân tán của các giá trị X quanh E(X)
-* Phương sai nhỏ: Mức độ tập trung của X quanh E(X) cao
-* Phương sai lớn: Mức độ phân tán lớn, các giá trị X càng xa E(X)
-* Ký hiệu: D(X)
+* Đánh giá mức độ phân tán của các giá trị $X$ quanh $E(X)$
+* Phương sai nhỏ: Mức độ tập trung của $X$ quanh $E(X)$ cao
+* Phương sai lớn: Mức độ phân tán lớn, các giá trị $X$ càng xa $E(X)$
+* Ký hiệu: $D(X)$
 
 $$
 \begin{equation}
@@ -196,23 +201,37 @@ $$
 
 Biểu thức tương đương: $ D(X) = E(X^2) -(E(X))^2 $
 
-Trong đó: E(X^2)= \sum_{i=1}^5 x_i ^2 p_i nếu X rời rạc
-	       E(X2)= -+x2f(x)dx nếu X liên tục
-c, Độ lệch chuẩn 
-	Kí hiệu:  
-=D(X)
+Trong đó: * $ E(X^2)= \sum_{i=1}^5 x_i ^2 p_i $ nếu X rời rạc
+	  *
+	  * $ \int_{- \infty}^{+ \infty} x^2 f(x) \,dx $ nếu X liên tục
+	  
+## 4.3 Độ lệch chuẩn 
+* Kí hiệu:  \sigma 
 
-	Vì phương sai là bình phương giá trị trung bình của các khoảng cách từ các giá trị của X tới giá trị trung bình của nó. Nên dễ dẫn tới các giá trị sai. Vì vậy chúng ta đưa nó về giá trị gốc bằng cách căn, giá trị này được gọi là độ lệch chuẩn.
+$$
+\begin{equation}
+\sigma = sqrt{D(X)}
+\end{equation}
+$$
 
-Phân phối xác suất
-5.1. Đối với đại lượng ngẫu nhiên rời rạc
- a, Phân phối nhị thức 
-	Là phân phối khi tiến hành n lần phép thử Bernoulli. Gọi X là số lần xuất hiện biến cố A với P(A) = p, p R, 0p1
+Vì phương sai là bình phương giá trị trung bình của các khoảng cách từ các giá trị của $X$ tới giá trị trung bình của nó.
 
-Phép thử Bernoulli:
-	Ý nghĩa: xác suất để A xuất hiện đúng m lần trong n lần thực hiện một phép thử. (n phép thử độc lập)
+Nên dễ dẫn tới các giá trị sai. Vì vậy chúng ta đưa nó về giá trị gốc bằng cách căn, giá trị này được gọi là **độ lệch chuẩn**.
 
-	Công thức: Pn(m,p) = Cnmpm(1-p)n-m
+# 5. Phân phối xác suất
+## 5.1. Đối với đại lượng ngẫu nhiên rời rạc
+### Phân phối nhị thức 
+
+* Là phân phối khi tiến hành n lần phép thử Bernoulli. Gọi $X$ là số lần xuất hiện biến cố $A$ với $P(A) = p, p \in R, 0 \leq p1 \leq $
+
+***Phép thử Bernoulli:***
+	* Ý nghĩa: xác suất để A xuất hiện đúng m lần trong n lần thực hiện một phép thử. (n phép thử độc lập)
+	*
+	* Công thức: 
+	* 
+$$
+\begin{equation}	
+P_n (m, p) = Cnmpm(1-p)n-m
 
 Ví dụ phép thử Bernoulli: Xác suất trúng đích của một xạ thủ là 0,7. Tìm xác suất để xạ thủ này bắn 5 viên đạn thì 4 viên trúng đích.
 
