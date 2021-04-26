@@ -204,12 +204,13 @@ $$
 
 Biểu thức tương đương: $ D(X) = E(X^2) -(E(X))^2 $
 
-Trong đó: * $ E(X^2)= \sum_{i=1}^5 x_i ^2 p_i $ nếu X rời rạc
-	  *
-	  * $ \int_{- \infty}^{+ \infty} x^2 f(x) \,dx $ nếu X liên tục
+Trong đó: 
+* $ E(X^2)= \sum_{i=1}^5 x_i ^2 p_i $ nếu $X$ rời rạc
+* 
+* $ \int_{- \infty}^{+ \infty} x^2 f(x) \,dx $ nếu $X$ liên tục
 	  
 ## 4.3 Độ lệch chuẩn 
-* Kí hiệu:  \sigma 
+* Kí hiệu: $ \sigma $
 
 $$
 \begin{equation}
@@ -225,7 +226,13 @@ Nên dễ dẫn tới các giá trị sai. Vì vậy chúng ta đưa nó về gi
 ## 5.1. Đối với đại lượng ngẫu nhiên rời rạc
 ### 5.1.1 Phân phối nhị thức 
 
-* Là phân phối khi tiến hành n lần phép thử Bernoulli. Gọi $X$ là số lần xuất hiện biến cố $A$ với $P(A) = p, p \in R, 0 \leq p1 \leq $
+* Là phân phối khi tiến hành n lần phép thử Bernoulli. Gọi $X$ là số lần xuất hiện biến cố $A$ với 
+
+$$
+\begin{equation}
+P(A) = p, p \in R, 0 \leq p_1 \leq 1
+\end{equation}
+$$
 
 ***Phép thử Bernoulli:***
 
@@ -291,18 +298,18 @@ $$
 Công thức:  
 
 $$
-\begin{equation}
+\begin{equation}{aligned}
 P(X=x) = \left(
 	    \begin{array}{c}
 	      m \\
 	      n
 	    \end{array}
 	  \right) p^x (1-p)^{n - x}
-\end{equation}
+\end{equation}{aligned}
 $$
 , với $x=0,1,2..n$
 
-**Tính chất:** $E(X) = np, D(X) = np(1 - p)$
+* **Tính chất:** $E(X) = np, D(X) = np(1 - p)$
 
 Ta nói $X$ tuân theo phân phối nhị thức:  $X \sim Bin(n, p)$
 
@@ -311,7 +318,7 @@ Có thể thấy **phép thử Bernoulli** là trường hợp đặc biệt c�
 ### 5.1.2 Phân phối Poisson
 
 * Là phân phối nhị thức với trường hợp n rất lớn, p rất nhỏ. 
-* 
+
 * Đặt $ \lambda = np $. Ta có:
 
 $$
@@ -321,7 +328,19 @@ p(x) &=C_{n}^{x} p^{x} (1-p)^{n-x} = \frac{n !}{x !(n-x) !} \left(\frac{\lambda}
 \end{aligned}
 $$
 
-Vì n rất lớn nên (1-n)x1, (1-n)ne- , với e = n(1+1n)n và n!nx.(n-x)! 1 nên suy ra: p(x) xx!.e-
+Vì n rất lớn nên $$
+\left(1-\frac{\lambda}{n}\right)^{x} \approx 1,\left(1-\frac{\lambda}{n}\right)^{n} \approx e^{-\lambda}
+$$ 
+, với $$
+\mathrm{e}=\lim _{n \rightarrow \infty}\left(1+\frac{1}{n}\right)^{n}
+$$
+và $$
+\frac{n !}{n^{x} .(n-x) !} \approx 1
+$$ 
+nên suy ra: 
+$$
+\mathrm{p}(\mathrm{x}) \approx \frac{\lambda^{x}}{x !} e^{-\lambda}
+$$
 
 **Tính chất:** $$E(X) = D(X) = \lambda $$
 
@@ -337,9 +356,11 @@ Ta nói $X$ tuân theo **phân phối Poisson:** $X \sim P(\lambda) $
 >
 > Xác suất để trong 1 phút có không quá 2 sợi bị đứt là:
 > 
-> P(X2) = P(X=0) + P(X=1) + P(X=2)
+> P(X \leq 2) = P(X=0) + P(X=1) + P(X=2)
 > 
-> = 00!.e-1+ 11!.e-1+ 22!.e-1= 0,9225
+> $$
+=\frac{\lambda^{0}}{0 !} \cdot e^{-1}+\frac{\lambda^{1}}{1 !} \cdot e^{-1}+\frac{\lambda^{2}}{2 !} \cdot e^{-1}=0,9225
+$$
 > 
 > Vậy xác suất trong 1 phút có không quá 2 sợi bị đứt là 0,9225
 
