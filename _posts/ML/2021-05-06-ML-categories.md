@@ -8,8 +8,8 @@ toc: true
 
 Có hai cách phổ biến phân nhóm các thuật toán Machine Learning.
 
-Một là dựa trên phương thức học (learning style)
-Hai là dựa trên sự tương đồng về chức năng của mỗi thuật toán (similarity)
+Một là dựa trên phương thức học (*learning style*)
+Hai là dựa trên sự tương đồng về chức năng của mỗi thuật toán (*similarity*)
 
 
 <aside markdown="1">
@@ -21,7 +21,7 @@ Hai là dựa trên sự tương đồng về chức năng của mỗi thuật t
 
 # 1. Phân nhóm dựa trên phương thức học
 
-Theo phương thức học, các thuật toán thường được chia làm 4 nhóm: Supervised Learning (học có giám sát), Unsupervised Learning (Học không có giám sát), Semi-supervised Learning (Học bán giám sát), Reinforcement Learning (Học tăng cường). 
+Theo phương thức học, các thuật toán thường được chia làm 4 nhóm: Supervised Learning (Học có giám sát), Unsupervised Learning (Học không có giám sát), Semi-supervised Learning (Học bán giám sát), Reinforcement Learning (Học tăng cường). 
 
 Nhưng nhìn chung, Học máy có hai nhóm chính là Supervised Learning và Unsupervised Learning
 
@@ -32,9 +32,9 @@ Học có giám sát hay học có thầy là thuật toán dự đoán đầu r
 
 ![](/img/posts/ML-categories/Supervised.png)
 
-Một mô hình được xây dựng và huấn luyện để đưa ra các dự đoán, nếu dự đoán bị sai hoặc mức độ chính xác (accuracy) không cao, sẽ được tinh chỉnh lại. Điều này giống như việc ta học với giáo viên trên lớp, giáo viên sẽ dạy ta những kiến thức với những đáp án chính xác về vấn đề nào đó ( dữ liệu có nhãn) và từ đó đối với những bài toán tương tự, ta sẽ dựa vào kiến thức đã học được để giải quyết và sữa chữa nếu làm sai. 
+Một mô hình được xây dựng và huấn luyện để đưa ra các dự đoán, nếu dự đoán bị sai hoặc mức độ chính xác (*accuracy*) không cao, sẽ được tinh chỉnh lại. Điều này giống như việc ta học với giáo viên trên lớp, giáo viên sẽ dạy ta những kiến thức với những đáp án chính xác về vấn đề nào đó ( *dữ liệu có nhãn*) và từ đó đối với những bài toán tương tự, ta sẽ dựa vào kiến thức đã học được để giải quyết và sữa chữa nếu làm sai. 
 
-Ví dụ: Bài toán kinh điển về dự đoán giá nhà đất với dữ liệu là diện tích, số phòng ngủ, số tầng, thời gian xây dựng, và quan trọng nhất là giá nhà (label).
+*Ví dụ*: Bài toán kinh điển về dự đoán giá nhà đất với dữ liệu là diện tích, số phòng ngủ, số tầng, thời gian xây dựng, và quan trọng nhất là giá nhà (label).
 
 
 <img src="/img/posts/ML-categories/houseprice.png" alt="" width="500"/>
@@ -51,7 +51,7 @@ Học không giám sát hay học không có thầy, đối với thuật toán 
 
 ![](/img/posts/ML-categories/Unsupervised.png)
 
-Ở thuật toán này, mục đích không phải là tìm ra đầu ra chính xác mà hướng tới việc tìm ra cấu trúc hoặc đặc điểm, sự tương quan trong dữ liệu để thực hiện công việc nào đó, ví dụ như Clustering (Phân cụm) hoặc giảm chiều dữ liệu (Dimention reduction) để thuận tiện trong việc lưu trữ và tính toán.
+Ở thuật toán này, mục đích không phải là tìm ra đầu ra chính xác mà hướng tới việc tìm ra cấu trúc hoặc đặc điểm, sự tương quan trong dữ liệu để thực hiện công việc nào đó, ví dụ như Clustering (Phân cụm) hoặc Dimention reduction (Giảm chiều dữ liệu) để thuận tiện trong việc lưu trữ và tính toán.
 
 *Ví dụ*: Phân loại khách hàng dựa vào độ tuổi, giới tính, sở thích mua sắm, tình trạng hôn nhân. Hoặc những hệ thống gợi ý (Recommendation system) dựa vào thói quen mua sắm của khách hàng mà đưa ra những gợi ý nhằm thúc đẩy nhu cầu mua sắm, tăng doanh thu…
 
@@ -67,11 +67,11 @@ Với bài toán này, giống như việc kết hợp giữa hai thuật toán 
 
 ## 1.4 Reinforcement Learning
 
-Học tăng cường hay học củng cố là bài toán giúp một hệ thống tự động xác định hành vi dựa trên hoàn cảnh để đạt được lợi ích cao nhất (maximizing the performance). Hiện tại thuật toán này được áp dụng nhiều vào Lý thuyết Trò chơi (Game theory).
+Học tăng cường hay học củng cố là bài toán giúp một hệ thống tự động xác định hành vi dựa trên hoàn cảnh để đạt được lợi ích cao nhất (maximizing the performance). Hiện tại thuật toán này được áp dụng nhiều vào Lý thuyết Trò chơi (Game Theory).
 
 ![](/img/posts/ML-categories/reinforcementlearning.jpg)
 
-Ví dụ nổi tiếng nhất của thuật toán này là AlphaGo - phần mềm chơi cờ vây được xây dựng bởi Google DeepMind.
+*Ví dụ* nổi tiếng nhất của thuật toán này là AlphaGo - phần mềm chơi cờ vây được xây dựng bởi Google DeepMind.
 
 ![](/img/posts/ML-categories/alphago.jpeg)
 
@@ -105,7 +105,7 @@ Những thuật toán này không thể hiện khái quát hóa rõ ràng, thay 
 
 ![](/img/posts/ML-categories/instancebased.png)
 
-Ví dụ thuật toán KNN (k-Nearest Neighbor) không thực hiện tính toán để tìm ra cấu trúc hoặc mối tương quan dữ liệu, thay vào đó nó chỉ thực sự hoạt động khi đưa dữ liệu vào, sau đó thuật toán tiến hành so sánh với các điểm dữ liệu gần với điểm dữ liệu mới nhất rồi đưa ra kết quả phù hợp. 
+Ví dụ thuật toán KNN (k-Nearest Neighbor) không thực hiện tính toán để tìm ra cấu trúc hoặc mối tương quan dữ liệu, thay vào đó nó chỉ thực sự hoạt động khi đưa dữ liệu vào, sau đó thuật toán tiến hành so sánh với các điểm dữ liệu gần với điểm dữ liệu cần dự đoán rồi đưa ra kết quả phù hợp. 
 
 ## 2.4 Regularization Algorithms 
 
