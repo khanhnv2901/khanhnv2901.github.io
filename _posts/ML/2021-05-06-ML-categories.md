@@ -36,11 +36,12 @@ Một mô hình được xây dựng và huấn luyện để đưa ra các dự
 
 Ví dụ: Bài toán kinh điển về dự đoán giá nhà đất với dữ liệu là diện tích, số phòng ngủ, số tầng, thời gian xây dựng, và quan trọng nhất là giá nhà (label).
 
-![](/img/posts/ML-categories/houseprice.png)
+
+<img src="/img/posts/ML-categories/houseprice.png" alt="" width="500"/>
 
 Sử dụng dữ liệu đã cho, xây dựng mô hình Machine learning để ướng tính giá trị của bất kì căn hộ nào khác có dữ liệu tương tự, ví dụ: 
 
-![](/img/posts/ML-categories/houseprice1.png)
+<img src="/img/posts/ML-categories/houseprice1.png" alt="" width="500"/>
 
 Đây là ví dụ về thuật toán Regression (Hồi quy), một trong hai loại chính của Supervised Learning, sẽ nói rõ hơn trong bài viết nào đó ở tương lai.
 
