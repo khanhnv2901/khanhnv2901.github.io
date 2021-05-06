@@ -90,7 +90,7 @@ Một ví dụ khác là dự đoán năng suất lúa trên một cánh đồng
 
 Mục tiêu của thuật toán phân loại là dự đoán dữ liệu mới thuộc vào nhãn nào trong các nhãn đã có sẵn ở dữ liệu huấn luyện. 
 
-![](/img/posts/ML-categories/classification.png)
+<img src="/img/posts/ML-categories/classification.png" alt="" width="230"/>
 
 Phân loại có thể chia thành phân loại nhị phân (binary classification) và phân loại nhiều lớp (multiclass classification). 
 
@@ -150,8 +150,7 @@ Phương pháp tập hợp là phương pháp kết hợp các mô hình yếu h
 
 # 3. Tài liệu tham khảo
 
-[1] [Phân nhóm các thuật toán](https://machinelearningcoban.com/2016/12/27/categories/),  
-*machinelearningcoban.com*
+[1] [Phân nhóm các thuật toán](https://machinelearningcoban.com/2016/12/27/categories/), *machinelearningcoban.com*
 
 [2] [Phân nhóm các thuật toán Machine Learning](https://nordiccoder.com/blog/phan-nhom-thuat-toan-machine-learning-nhung-dieu-ban-can-phai-biet/), *nordiccoder.com*
 
