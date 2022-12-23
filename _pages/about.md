@@ -6,8 +6,7 @@ permalink: /about/
 ---
 
 <p style="text-align: center;">Mình là Khánh</p>
-
-
+<p style="text-align: center;">Một người bình thường</p>
 <p style="text-align: center;"><em>Cảm ơn vì đã đọc!<em></p>
 
 
