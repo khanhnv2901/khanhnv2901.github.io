@@ -12,14 +12,6 @@ tags: Reddit
 
 ---
 
-✍️ <strong>Grape_Jamz</strong> - 1.7k points - x2 silver - x1 helpful - x3 wholesome
-
-Hoảng loạn tới chết
-
-✍️ ><strong>lemaquilleur</strong> - 262 points
-
-Câu trả lời thực tế nhất đây rồi
-
 ✍️ <strong>irrelevant_nonsens</strong> - 3.5k points - x1 wholesome
 
 Vào năm 2019, tôi giảm 35 lbs (~ 15.9 kg), phần lớn là mỡ bụng vì đó là nơi tập trung nhiều mỡ nhất, chỉ bằng việc ăn ít calo hơn. Rất nhiều lượng calo được cắt giảm từ việc tôi ngừng uống rượu. Tôi không tập một chút thể dục nào cả. Tôi cũng không ăn theo bất cứ chế độ ăn kiêng hay nhịn ăn chuyên biệt nào.
